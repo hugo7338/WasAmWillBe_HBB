@@ -1,0 +1,30 @@
+{
+  "note": "Public geography, deliberately kept out of the content frontmatter — elevation is not biography. Zone E carries no reading on purpose: the lateral drift gains no altitude, and the gauge going blank for four chapters is the point. Symbolic locations have no elevation either. Values in metres, approximate.",
+  "metres": {
+    "first-house": 170,
+    "the-quiet-street": 230,
+    "venus-garden": 230,
+    "the-locked-room": 230,
+    "displayed-diplomas": 230,
+    "the-aquarium": 230,
+    "the-corner": null,
+    "grandmothers-table": 1100,
+    "the-van": null,
+    "the-long-solo-hikes": null,
+    "the-closed-bond": null,
+    "the-return": null,
+    "the-control-panel": 170,
+    "the-dashboard": 170,
+    "the-grey-wardrobe": 170,
+    "the-bw-phone": 170,
+    "crossroads-of-impulses": 170,
+    "the-pushback-bench": 170,
+    "the-improv-stage": 170,
+    "the-lake": 447,
+    "the-finish-line": null,
+    "the-signed-keys": null,
+    "the-idea-log": null,
+    "the-future-team": null,
+    "above-mont-blanc": 4806
+  }
+}

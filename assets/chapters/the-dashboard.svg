@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="A night of sleep drawn as a stepped trace, a cardiac trace below it, and an ingredient label beside them.">
+
+  <!-- the night, in stages -->
+  <path pathLength="1" d="M 32 96 L 74 96 L 74 120 L 128 120 L 128 76 L 176 76 L 176 132
+                          L 224 132 L 224 104 L 268 104 L 268 88 L 300 88"/>
+
+  <!-- the heart, unremarkable, which is the point of measuring it -->
+  <path pathLength="1" d="M 32 196 L 70 196 L 78 196 L 84 174 L 90 222 L 96 190 L 104 196
+                          L 150 196 L 158 196 L 164 174 L 170 222 L 176 190 L 184 196
+                          L 230 196 L 238 196 L 244 174 L 250 222 L 256 190 L 264 196
+                          L 300 196"/>
+
+  <!-- and the label: what is allowed in -->
+  <path pathLength="1" d="M 340 60 L 452 60 L 452 250 L 340 250 Z"/>
+  <path pathLength="1" d="M 354 84 L 420 84"/>
+  <path pathLength="1" d="M 354 100 L 438 100"/>
+  <path pathLength="1" d="M 354 122 L 438 122"/>
+  <path pathLength="1" d="M 354 140 L 410 140"/>
+  <path pathLength="1" d="M 354 158 L 438 158"/>
+  <path pathLength="1" d="M 354 176 L 396 176"/>
+  <path pathLength="1" d="M 354 194 L 438 194"/>
+  <path pathLength="1" d="M 354 212 L 424 212"/>
+  <path pathLength="1" d="M 354 230 L 380 230"/>
+</svg>

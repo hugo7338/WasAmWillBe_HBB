@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" class="drawing" role="img"
+     aria-label="A phone whose screen loses its fill row by row, from the top down.">
+
+  <path pathLength="1" d="M 186 22 L 294 22 Q 310 22 310 38 L 310 302 Q 310 318 294 318
+                          L 186 318 Q 170 318 170 302 L 170 38 Q 170 22 186 22 Z"/>
+  <path pathLength="1" d="M 220 36 L 260 36"/>
+
+  <!-- The second and last two-tone drawing in the site, after her coat: the top
+       row is still filled, the rest is outline. Colour leaving a screen,
+       drawn with the only two tones the page has. Nothing explains it. -->
+  <path pathLength="1" class="coat" d="M 190 64 L 220 64 L 220 94 L 190 94 Z"/>
+  <path pathLength="1" class="coat" d="M 230 64 L 260 64 L 260 94 L 230 94 Z"/>
+  <path pathLength="1" class="coat" d="M 270 64 L 290 64 L 290 94 L 270 94 Z"/>
+
+  <path pathLength="1" d="M 190 112 L 220 112 L 220 142 L 190 142 Z"/>
+  <path pathLength="1" d="M 230 112 L 260 112 L 260 142 L 230 142 Z"/>
+  <path pathLength="1" d="M 270 112 L 290 112 L 290 142 L 270 142 Z"/>
+
+  <path pathLength="1" d="M 190 160 L 220 160 L 220 190 L 190 190 Z"/>
+  <path pathLength="1" d="M 230 160 L 260 160 L 260 190 L 230 190 Z"/>
+  <path pathLength="1" d="M 270 160 L 290 160 L 290 190 L 270 190 Z"/>
+
+  <path pathLength="1" d="M 190 208 L 220 208 L 220 238 L 190 238 Z"/>
+  <path pathLength="1" d="M 230 208 L 260 208 L 260 238 L 230 238 Z"/>
+  <path pathLength="1" d="M 270 208 L 290 208 L 290 238 L 270 238 Z"/>
+
+  <path pathLength="1" d="M 190 256 L 220 256 L 220 286 L 190 286 Z"/>
+  <path pathLength="1" d="M 230 256 L 260 256 L 260 286 L 230 286 Z"/>
+  <path pathLength="1" d="M 270 256 L 290 256 L 290 286 L 270 286 Z"/>
+</svg>

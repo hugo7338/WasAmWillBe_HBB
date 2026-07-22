@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="Contour lines running in from the left and stopping partway across: the map's undrawn edge.">
+
+  <!-- The one drawing in the site whose strokes never finish. Two pillars
+       stand, two are under construction, and the belief that sits here is
+       still waiting for its impact point — so the terrain stops. -->
+  <path pathLength="1" d="M 24 78 C 92 66 148 84 196 96"/>
+  <path pathLength="1" class="unfinished" d="M 196 96 C 268 114 336 106 456 84"/>
+
+  <path pathLength="1" d="M 24 124 C 96 112 156 130 208 142"/>
+  <path pathLength="1" class="unfinished" d="M 208 142 C 280 158 348 148 456 128"/>
+
+  <path pathLength="1" d="M 24 170 C 88 160 152 178 200 190"/>
+  <path pathLength="1" class="unfinished" d="M 200 190 C 276 206 344 194 456 174"/>
+
+  <path pathLength="1" d="M 24 216 C 100 206 158 224 212 236"/>
+  <path pathLength="1" class="unfinished" d="M 212 236 C 284 252 350 240 456 220"/>
+
+  <path pathLength="1" d="M 24 262 C 92 252 150 268 202 278"/>
+  <path pathLength="1" class="unfinished" d="M 202 278 C 274 292 344 284 456 266"/>
+</svg>

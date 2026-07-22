@@ -1,0 +1,28 @@
+[
+  {
+    "id": "M1",
+    "after": "the-corner",
+    "from": {
+      "lat": 45.6136,
+      "lng": 5.1483
+    },
+    "to": {
+      "lat": -41.5,
+      "lng": 173.2
+    },
+    "hold": 2.6
+  },
+  {
+    "id": "M2",
+    "after": "the-closed-bond",
+    "from": {
+      "lat": -41.5,
+      "lng": 173.2
+    },
+    "to": {
+      "lat": 45.764,
+      "lng": 4.8357
+    },
+    "hold": 1.4
+  }
+]

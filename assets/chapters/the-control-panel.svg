@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="A wall of controls: an amplifier, a thermostat, a washing machine, a home-automation panel and a bank of dimmers, every one of them set.">
+
+  <!-- Not one appliance but the whole house: every system that will let itself
+       be configured, and all of them configured. -->
+
+  <!-- the amplifier -->
+  <path pathLength="1" d="M 28 30 L 276 30 L 276 96 L 28 96 Z"/>
+  <path pathLength="1" d="M 66 63 m -24 0 a 24 24 0 1 0 48 0 a 24 24 0 1 0 -48 0"/>
+  <path pathLength="1" d="M 66 63 L 82 48"/>
+  <path pathLength="1" d="M 110 44 L 258 44 L 258 62 L 110 62 Z"/>
+  <path pathLength="1" d="M 120 53 L 152 53"/>
+  <path pathLength="1" d="M 162 53 L 182 53"/>
+  <path pathLength="1" d="M 192 53 L 246 53"/>
+  <path pathLength="1" d="M 118 80 m -5 0 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0"/>
+  <path pathLength="1" d="M 142 80 m -5 0 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0"/>
+  <path pathLength="1" d="M 166 80 m -5 0 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0"/>
+  <path pathLength="1" d="M 190 80 m -5 0 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0"/>
+  <path pathLength="1" d="M 214 80 m -5 0 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0"/>
+
+  <!-- the thermostat -->
+  <path pathLength="1" d="M 386 68 m -40 0 a 40 40 0 1 0 80 0 a 40 40 0 1 0 -80 0"/>
+  <path pathLength="1" d="M 386 68 m -7 0 a 7 7 0 1 0 14 0 a 7 7 0 1 0 -14 0"/>
+  <path pathLength="1" d="M 386 32 L 386 39"/>
+  <path pathLength="1" d="M 411 43 L 407 47"/>
+  <path pathLength="1" d="M 422 68 L 415 68"/>
+  <path pathLength="1" d="M 411 93 L 407 89"/>
+  <path pathLength="1" d="M 386 104 L 386 97"/>
+  <path pathLength="1" d="M 361 93 L 365 89"/>
+  <path pathLength="1" d="M 350 68 L 357 68"/>
+  <path pathLength="1" d="M 361 43 L 365 47"/>
+  <path pathLength="1" d="M 386 68 L 410 50"/>
+
+  <!-- the washing machine -->
+  <path pathLength="1" d="M 28 124 L 276 124 L 276 222 L 28 222 Z"/>
+  <path pathLength="1" d="M 72 173 m -30 0 a 30 30 0 1 0 60 0 a 30 30 0 1 0 -60 0"/>
+  <path pathLength="1" d="M 72 173 m -5 0 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0"/>
+  <path pathLength="1" d="M 72 138 L 72 144"/>
+  <path pathLength="1" d="M 107 173 L 101 173"/>
+  <path pathLength="1" d="M 72 208 L 72 202"/>
+  <path pathLength="1" d="M 37 173 L 43 173"/>
+  <path pathLength="1" d="M 72 173 L 54 194"/>
+  <path pathLength="1" d="M 140 158 m -14 0 a 14 14 0 1 0 28 0 a 14 14 0 1 0 -28 0"/>
+  <path pathLength="1" d="M 140 158 L 150 149"/>
+  <path pathLength="1" d="M 186 158 m -14 0 a 14 14 0 1 0 28 0 a 14 14 0 1 0 -28 0"/>
+  <path pathLength="1" d="M 186 158 L 186 145"/>
+  <path pathLength="1" d="M 126 190 L 258 190 L 258 210 L 126 210 Z"/>
+  <path pathLength="1" d="M 136 200 L 166 200"/>
+  <path pathLength="1" d="M 176 200 L 194 200"/>
+  <path pathLength="1" d="M 204 200 L 246 200"/>
+
+  <!-- the wall panel: lights, blinds, heat, everything that answers -->
+  <path pathLength="1" d="M 324 124 L 444 124 Q 456 124 456 136 L 456 256 Q 456 268 444 268
+                          L 324 268 Q 312 268 312 256 L 312 136 Q 312 124 324 124 Z"/>
+  <path pathLength="1" d="M 328 142 L 356 142 L 356 170 L 328 170 Z"/>
+  <path pathLength="1" d="M 370 142 L 398 142 L 398 170 L 370 170 Z"/>
+  <path pathLength="1" d="M 412 142 L 440 142 L 440 170 L 412 170 Z"/>
+  <path pathLength="1" d="M 328 184 L 440 184"/>
+  <path pathLength="1" d="M 396 184 m -7 0 a 7 7 0 1 0 14 0 a 7 7 0 1 0 -14 0"/>
+  <path pathLength="1" d="M 328 214 L 440 214"/>
+  <path pathLength="1" d="M 358 214 m -7 0 a 7 7 0 1 0 14 0 a 7 7 0 1 0 -14 0"/>
+  <path pathLength="1" d="M 328 244 L 440 244"/>
+  <path pathLength="1" d="M 424 244 m -7 0 a 7 7 0 1 0 14 0 a 7 7 0 1 0 -14 0"/>
+
+  <!-- and the dimmers, none of them at the same height -->
+  <path pathLength="1" d="M 28 236 L 192 236 L 192 292 L 28 292 Z"/>
+  <path pathLength="1" d="M 62 246 L 62 282"/>
+  <path pathLength="1" d="M 110 246 L 110 282"/>
+  <path pathLength="1" d="M 158 246 L 158 282"/>
+  <path pathLength="1" d="M 53 252 L 71 252 L 71 262 L 53 262 Z"/>
+  <path pathLength="1" d="M 101 270 L 119 270 L 119 280 L 101 280 Z"/>
+  <path pathLength="1" d="M 149 260 L 167 260 L 167 270 L 149 270 Z"/>
+</svg>

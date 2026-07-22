@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="Three framed diplomas hung on a wall.">
+  <path pathLength="1" d="M 30 262 L 450 262"/>
+
+  <path pathLength="1" d="M 62 96 L 182 96 L 182 184 L 62 184 Z"/>
+  <path pathLength="1" d="M 74 108 L 170 108 L 170 172 L 74 172 Z"/>
+  <path pathLength="1" d="M 88 124 L 156 124"/>
+  <path pathLength="1" d="M 88 136 L 156 136"/>
+  <path pathLength="1" d="M 88 148 L 130 148"/>
+  <path pathLength="1" d="M 152 158 m -7 0 a 7 7 0 1 0 14 0 a 7 7 0 1 0 -14 0"/>
+
+  <path pathLength="1" d="M 204 78 L 332 78 L 332 186 L 204 186 Z"/>
+  <path pathLength="1" d="M 216 90 L 320 90 L 320 174 L 216 174 Z"/>
+  <path pathLength="1" d="M 230 110 L 306 110"/>
+  <path pathLength="1" d="M 230 124 L 306 124"/>
+  <path pathLength="1" d="M 230 138 L 274 138"/>
+  <path pathLength="1" d="M 302 158 m -8 0 a 8 8 0 1 0 16 0 a 8 8 0 1 0 -16 0"/>
+
+  <path pathLength="1" d="M 354 106 L 458 106 L 458 182 L 354 182 Z"/>
+  <path pathLength="1" d="M 364 116 L 448 116 L 448 172 L 364 172 Z"/>
+  <path pathLength="1" d="M 376 130 L 436 130"/>
+  <path pathLength="1" d="M 376 142 L 436 142"/>
+  <path pathLength="1" d="M 376 154 L 410 154"/>
+</svg>

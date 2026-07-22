@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="The summit seen from a cockpit: the window frame, the instrument tops, and the range below the horizon.">
+
+  <!-- Seen from inside the aircraft, because the chapter is not about the
+       mountain. The horizon sits low: everything is below now. -->
+  <path pathLength="1" d="M 44 26 L 436 26 Q 452 26 452 44 L 452 214 Q 452 232 436 232
+                          L 44 232 Q 28 232 28 214 L 28 44 Q 28 26 44 26 Z"/>
+  <path pathLength="1" d="M 240 26 L 240 232"/>
+
+  <path pathLength="1" d="M 40 168 L 96 132 L 130 152 L 176 106 L 208 140 L 240 122"/>
+  <path pathLength="1" d="M 240 122 L 282 148 L 318 118 L 366 156 L 402 138 L 442 162"/>
+  <path pathLength="1" d="M 176 106 L 160 124 L 184 130 L 198 116 Z"/>
+  <path pathLength="1" d="M 318 118 L 304 136 L 328 140 L 340 128 Z"/>
+
+  <path pathLength="1" d="M 28 190 L 452 190"/>
+
+  <path pathLength="1" d="M 96 252 m -20 0 a 20 20 0 1 0 40 0 a 20 20 0 1 0 -40 0"/>
+  <path pathLength="1" d="M 96 252 L 110 240"/>
+  <path pathLength="1" d="M 180 252 m -20 0 a 20 20 0 1 0 40 0 a 20 20 0 1 0 -40 0"/>
+  <path pathLength="1" d="M 180 252 L 180 236"/>
+  <path pathLength="1" d="M 232 268 L 340 268"/>
+  <path pathLength="1" d="M 232 282 L 300 282"/>
+  <path pathLength="1" d="M 366 252 m -14 0 a 14 14 0 1 0 28 0 a 14 14 0 1 0 -28 0"/>
+  <path pathLength="1" d="M 402 252 m -14 0 a 14 14 0 1 0 28 0 a 14 14 0 1 0 -28 0"/>
+</svg>

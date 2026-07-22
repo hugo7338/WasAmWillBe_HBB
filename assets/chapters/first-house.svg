@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="A baptismal font on its pedestal, empty.">
+  <path pathLength="1" d="M 60 268 L 420 268"/>
+
+  <!-- the rim, and the empty basin below it -->
+  <path pathLength="1" d="M 172 150 a 68 16 0 1 0 136 0 a 68 16 0 1 0 -136 0"/>
+  <path pathLength="1" d="M 190 155 C 204 163 220 167 240 167 C 260 167 276 163 290 155"/>
+  <path pathLength="1" d="M 172 150 C 176 168 196 184 240 186 C 284 184 304 168 308 150"/>
+
+  <!-- pedestal -->
+  <path pathLength="1" d="M 218 186 C 212 202 210 220 214 240"/>
+  <path pathLength="1" d="M 262 186 C 268 202 270 220 266 240"/>
+  <path pathLength="1" d="M 200 254 C 206 250 209 246 214 240"/>
+  <path pathLength="1" d="M 280 254 C 274 250 271 246 266 240"/>
+  <path pathLength="1" d="M 180 254 L 300 254 L 292 268 L 188 268 Z"/>
+</svg>

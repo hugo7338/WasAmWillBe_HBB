@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="A path arriving from below and dividing into two, both drawn equally.">
+
+  <!-- Both ways are drawn the same. The scene says which one is taken; the
+       drawing has no business saying it twice, and no business judging. -->
+  <path pathLength="1" d="M 240 288 C 238 250 240 224 240 202"/>
+
+  <path pathLength="1" d="M 240 202 C 234 166 198 132 142 88"/>
+  <path pathLength="1" d="M 240 202 C 246 166 282 132 338 88"/>
+
+  <path pathLength="1" d="M 240 202 m -6 0 a 6 6 0 1 0 12 0 a 6 6 0 1 0 -12 0"/>
+</svg>

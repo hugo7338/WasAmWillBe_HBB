@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="A closed door with a keyhole. No key.">
+  <path pathLength="1" d="M 60 268 L 420 268"/>
+
+  <path pathLength="1" d="M 148 268 L 148 52 L 332 52 L 332 268"/>
+  <path pathLength="1" d="M 160 268 L 160 62 L 320 62 L 320 268"/>
+
+  <path pathLength="1" d="M 176 82 L 288 82 L 288 150 L 176 150 Z"/>
+  <path pathLength="1" d="M 176 186 L 288 186 L 288 250 L 176 250 Z"/>
+
+  <path pathLength="1" d="M 304 166 m -6 0 a 6 6 0 1 0 12 0 a 6 6 0 1 0 -12 0"/>
+  <path pathLength="1" d="M 304 184 m -4 0 a 4 4 0 1 0 8 0 a 4 4 0 1 0 -8 0"/>
+  <path pathLength="1" d="M 301 187 L 300 196 L 308 196 L 307 187"/>
+</svg>

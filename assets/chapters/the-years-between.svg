@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="A long table seen from above after an evening: glasses left where they were, two bottles, and chairs pushed back.">
+
+  <!-- The same viewpoint as chapter 6, and the opposite verdict. That plate was
+       seen from above, untouched, and sat in front of him for whole afternoons.
+       This table was emptied, and by people who chose to be at it. Neither is
+       ever remarked on. -->
+
+  <path pathLength="1" d="M 62 96 L 418 96 Q 428 96 428 106 L 428 194 Q 428 204 418 204
+                          L 62 204 Q 52 204 52 194 L 52 106 Q 52 96 62 96 Z"/>
+
+  <!-- chairs, none of them where they were left -->
+  <g transform="rotate(-13 100 60)">
+    <path pathLength="1" d="M 76 46 L 124 46 L 124 74 L 76 74 Z"/>
+  </g>
+  <g transform="rotate(6 186 72)">
+    <path pathLength="1" d="M 162 58 L 210 58 L 210 86 L 162 86 Z"/>
+  </g>
+  <g transform="rotate(-4 268 34)">
+    <path pathLength="1" d="M 244 20 L 292 20 L 292 48 L 244 48 Z"/>
+  </g>
+  <g transform="rotate(17 372 64)">
+    <path pathLength="1" d="M 348 50 L 396 50 L 396 78 L 348 78 Z"/>
+  </g>
+
+  <g transform="rotate(9 118 226)">
+    <path pathLength="1" d="M 94 212 L 142 212 L 142 240 L 94 240 Z"/>
+  </g>
+  <g transform="rotate(-14 214 252)">
+    <path pathLength="1" d="M 190 238 L 238 238 L 238 266 L 190 266 Z"/>
+  </g>
+  <g transform="rotate(3 336 224)">
+    <path pathLength="1" d="M 312 210 L 360 210 L 360 238 L 312 238 Z"/>
+  </g>
+
+  <!-- and one that left the table altogether -->
+  <g transform="rotate(-28 448 138)">
+    <path pathLength="1" d="M 424 124 L 472 124 L 472 152 L 424 152 Z"/>
+  </g>
+
+  <!-- glasses, from above: a rim and a base. Some of them in pairs. -->
+  <path pathLength="1" d="M 96 128 m -10 0 a 10 10 0 1 0 20 0 a 10 10 0 1 0 -20 0"/>
+  <path pathLength="1" d="M 96 128 m -5 0 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0"/>
+  <path pathLength="1" d="M 122 152 m -10 0 a 10 10 0 1 0 20 0 a 10 10 0 1 0 -20 0"/>
+  <path pathLength="1" d="M 122 152 m -5 0 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0"/>
+
+  <path pathLength="1" d="M 196 132 m -10 0 a 10 10 0 1 0 20 0 a 10 10 0 1 0 -20 0"/>
+  <path pathLength="1" d="M 196 132 m -5 0 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0"/>
+
+  <path pathLength="1" d="M 262 168 m -10 0 a 10 10 0 1 0 20 0 a 10 10 0 1 0 -20 0"/>
+  <path pathLength="1" d="M 262 168 m -5 0 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0"/>
+  <path pathLength="1" d="M 288 148 m -10 0 a 10 10 0 1 0 20 0 a 10 10 0 1 0 -20 0"/>
+  <path pathLength="1" d="M 288 148 m -5 0 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0"/>
+
+  <path pathLength="1" d="M 356 126 m -10 0 a 10 10 0 1 0 20 0 a 10 10 0 1 0 -20 0"/>
+  <path pathLength="1" d="M 356 126 m -5 0 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0"/>
+  <path pathLength="1" d="M 392 166 m -10 0 a 10 10 0 1 0 20 0 a 10 10 0 1 0 -20 0"/>
+  <path pathLength="1" d="M 392 166 m -5 0 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0"/>
+
+  <!-- and two bottles, both of them finished -->
+  <path pathLength="1" d="M 158 172 m -14 0 a 14 14 0 1 0 28 0 a 14 14 0 1 0 -28 0"/>
+  <path pathLength="1" d="M 158 172 m -5 0 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0"/>
+  <path pathLength="1" d="M 326 176 m -14 0 a 14 14 0 1 0 28 0 a 14 14 0 1 0 -28 0"/>
+  <path pathLength="1" d="M 326 176 m -5 0 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0"/>
+</svg>

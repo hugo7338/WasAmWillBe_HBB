@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="An empty stage seen from the house: curtains drawn back to either side, a scalloped valance, and the bare boards.">
+
+  <!-- Chosen because of the shame trigger, not despite it — so what is drawn
+       is the terrain, not the performance. Nobody has walked on yet. -->
+
+  <path pathLength="1" d="M 32 30 L 448 30"/>
+  <path pathLength="1" d="M 32 30 L 32 72"/>
+  <path pathLength="1" d="M 448 30 L 448 72"/>
+  <path pathLength="1" d="M 32 72 C 60 94 88 94 116 72 C 144 94 172 94 200 72
+                          C 228 94 256 94 284 72 C 312 94 340 94 368 72
+                          C 396 94 424 94 448 72"/>
+
+  <path pathLength="1" d="M 32 72 L 32 236 L 108 236 C 100 184 104 132 96 82"/>
+  <path pathLength="1" d="M 60 96 L 60 232"/>
+  <path pathLength="1" d="M 82 100 L 82 234"/>
+
+  <path pathLength="1" d="M 448 72 L 448 236 L 372 236 C 380 184 376 132 384 82"/>
+  <path pathLength="1" d="M 420 96 L 420 232"/>
+  <path pathLength="1" d="M 398 100 L 398 234"/>
+
+  <path pathLength="1" d="M 108 190 L 372 190"/>
+
+  <path pathLength="1" d="M 32 236 L 448 236"/>
+  <path pathLength="1" d="M 56 236 L 40 272 L 440 272 L 424 236"/>
+  <path pathLength="1" d="M 160 236 L 152 272"/>
+  <path pathLength="1" d="M 240 236 L 240 272"/>
+  <path pathLength="1" d="M 320 236 L 328 272"/>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="A large aquarium on its stand, and a stack of books beside it.">
+  <defs>
+    <radialGradient id="seed" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" class="seed-in"/>
+      <stop offset="1" class="seed-out"/>
+    </radialGradient>
+  </defs>
+
+  <!-- the second of the two seeds: the only other warm light in era-was -->
+  <ellipse cx="208" cy="164" rx="122" ry="74" fill="url(#seed)" class="glow"/>
+
+  <path pathLength="1" d="M 40 268 L 450 268"/>
+
+  <!-- the tank -->
+  <path pathLength="1" d="M 100 96 L 320 96 L 320 232 L 100 232 Z"/>
+  <path pathLength="1" d="M 108 118 C 140 113 180 120 214 115 C 250 110 288 117 312 114"/>
+  <path pathLength="1" d="M 104 218 C 140 209 180 214 214 209 C 250 204 288 211 316 207"/>
+
+  <!-- planting -->
+  <path pathLength="1" d="M 130 224 C 123 200 132 176 140 158"/>
+  <path pathLength="1" d="M 146 224 C 143 202 150 184 157 168"/>
+  <path pathLength="1" d="M 288 222 C 294 202 287 182 280 166"/>
+  <path pathLength="1" d="M 274 224 C 278 206 273 190 268 178"/>
+
+  <!-- the first laboratory's inhabitants -->
+  <path pathLength="1" d="M 202 150 m -12 0 a 12 7 0 1 0 24 0 a 12 7 0 1 0 -24 0"/>
+  <path pathLength="1" d="M 190 150 L 178 143 L 178 157 Z"/>
+  <path pathLength="1" d="M 252 180 m -9 0 a 9 5.5 0 1 0 18 0 a 9 5.5 0 1 0 -18 0"/>
+  <path pathLength="1" d="M 243 180 L 233 175 L 233 185 Z"/>
+  <path pathLength="1" d="M 172 190 m -8 0 a 8 5 0 1 0 16 0 a 8 5 0 1 0 -16 0"/>
+  <path pathLength="1" d="M 164 190 L 155 186 L 155 194 Z"/>
+
+  <!-- the stand -->
+  <path pathLength="1" d="M 94 232 L 326 232 L 326 268 L 94 268 Z"/>
+  <path pathLength="1" d="M 210 232 L 210 268"/>
+
+  <!-- the books read before the tank was earned -->
+  <path pathLength="1" d="M 344 268 L 344 256 L 430 256 L 430 268 Z"/>
+  <path pathLength="1" d="M 350 256 L 350 244 L 424 244 L 424 256"/>
+  <path pathLength="1" d="M 356 244 L 356 232 L 418 232 L 418 244"/>
+  <path pathLength="1" d="M 352 262 L 422 262"/>
+  <path pathLength="1" d="M 358 250 L 416 250"/>
+</svg>

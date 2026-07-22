@@ -1,0 +1,931 @@
+/* Palettes: art-direction.md. Only `cold` is exercised by chapter 3. */
+:root {
+  --ground: #2B3A4A;
+  --deep:   #1E2D3D;
+  --paths:  #4A5A6A;   /* rules and hairlines */
+  --dim:    #7A8B9C;   /* small type — legible, still clearly secondary */
+  --line:   #8FA3B5;
+  --text:   #D5DDE4;
+  --seed:   #E8A87C;
+
+  --serif: ui-serif, Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --sans:  ui-sans-serif, -apple-system, "Helvetica Neue", sans-serif;
+  --mono:  ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+/* transitional (era: am — zone C). Lyon in greys that *contain* colour: the
+   ground stays neutral and the warmth arrives as reflected light, never as a
+   source. art-direction.md. */
+body[data-palette="transitional"] {
+  --ground: #33353A;
+  --deep:   #26282C;
+  --paths:  #52555C;
+  --dim:    #8A8C92;
+  --line:   #A6A29C;
+  --text:   #E4E1DC;
+}
+
+/* blueprint (era: will-be). Classic cyanotype — art-direction.md. The whole
+   of era III is drafting paper; what solidifies is each chapter in turn, as it
+   is read, and never the ground. */
+body[data-palette="blueprint"] {
+  --ground: #0F2B4C;
+  --deep:   #0A1F38;
+  --paths:  #2C4E78;
+  --dim:    #7FA3C9;
+  --line:   #BFD7ED;
+  --text:   #EAF3FB;
+}
+
+/* warm (the apex, and nowhere else). Golden-hour alpine, and the only page in
+   the site with a light ground: twenty-four chapters of night, then the sky.
+   It has to be earned, so no other location may borrow it. */
+body[data-palette="warm"] {
+  --ground: #7FA8C9;
+  --deep:   #9CBBD5;
+  --paths:  #5E86A6;
+  --dim:    #3A5568;
+  --line:   #2C4356;
+  --text:   #16283A;
+  --seed:   #E8A87C;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: auto; }
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--text);
+  font-family: var(--serif);
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 1.2s linear;
+}
+
+/* ── the apparatus: persistent, never explained ─────────────────────── */
+
+.apparatus {
+  position: fixed;
+  inset: 0 auto 0 0;
+  width: 9.5rem;
+  padding: 1.8rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.apparatus__id {
+  font-family: var(--mono);
+  font-size: .74rem;
+  letter-spacing: .1em;
+  color: var(--dim);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .35rem;
+}
+.apparatus__id [data-role="order"] { color: var(--line); font-size: 1.1rem; }
+
+.apparatus__stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+/* threads — the gutter is a miniature of the whole book, chapter 1 at the top
+   and 25 at the bottom. Each thread is a segment on that shared axis. */
+.threads {
+  position: relative;
+  display: flex;
+  gap: 13px;
+  height: 42vh;
+  padding-left: 19px;
+}
+.threads__axis {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 1px;
+  background: var(--paths);
+  opacity: .45;
+}
+
+.thread { position: relative; width: 1px; }
+.thread__span, .thread__lit { position: absolute; left: 0; width: 1px; }
+.thread__span { background: var(--paths); }
+.thread__lit  { background: var(--line); transition: height 1s ease; }
+.thread.is-active .thread__lit { background: var(--text); }
+
+.thread__node {
+  position: absolute;
+  left: -2px;
+  width: 5px;
+  height: 5px;
+  margin-top: -2.5px;
+  border-radius: 50%;
+  background: var(--paths);
+  transition: background-color .8s ease, transform .8s ease;
+}
+.thread__node.is-here { background: var(--text); transform: scale(1.6); }
+
+/* compass — the Values Compass, −5 … +5. Never labelled; but an instrument
+   nobody can read is not discretion, it is noise, so it gets a dial. */
+.compass { width: 86px; height: 86px; display: block; }
+.compass .arc { fill: none; stroke: var(--dim); stroke-width: 1; }
+.compass .tick { stroke: var(--dim); stroke-width: 1; stroke-linecap: round; }
+/* the span of the dial this life has covered so far — a record, not a reading */
+.compass .trace {
+  fill: none;
+  stroke: var(--line);
+  stroke-width: 3;
+  stroke-linecap: round;
+  opacity: .6;
+  transition: opacity .8s ease;
+}
+.compass .needle {
+  stroke: var(--text);
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  transform-origin: 29px 40px;
+}
+.compass .pivot { fill: var(--text); }
+
+/* the two limits, written once, at the apex — the only words the instrument
+   ever says, on a trace that is complete by the time they appear */
+.compass .names text {
+  font-family: var(--sans);
+  font-size: 4.4px;
+  letter-spacing: .06em;
+  fill: var(--dim);
+  opacity: 0;
+  transition: opacity 2.6s ease;
+}
+.compass .names.is-named text { opacity: 1; }
+
+/* altitude — factual, and blank wherever there is nothing true to show */
+.gauge {
+  font-family: var(--mono);
+  font-size: .78rem;
+  letter-spacing: .08em;
+  color: var(--dim);
+  min-height: 1em;
+}
+
+/* Venus — zone A only, never referenced in the text */
+.venus { width: 66px; opacity: 0; transition: opacity 1.4s ease; }
+.venus.is-present { opacity: .85; }
+.venus svg { display: block; width: 100%; height: auto; }
+/* Two tones, or she is not the first carrier of anything: the page ground is
+   her black, the near-white patches are her white — the same technique the
+   chapter drawings use. At chapter 3 the scene says "black-and-white Border
+   Collie" a few lines away, and this is the only thing that answers it. */
+.venus .ln { fill: none; stroke: var(--line); stroke-width: 1.3; stroke-linecap: round; }
+.venus .patch { fill: var(--text); stroke: none; }
+
+/* The Beast — a weight on the page, never a creature. It presses in from the
+   edges of the whole viewport, so it is felt rather than looked at, and it can
+   never be mistaken for a thing standing next to you.
+   z-index 1 keeps it above the chapter and below the apparatus: the Beast is a
+   condition of the station, but it does not touch the instruments. */
+.beast {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0;
+  /* Heavier at the bottom than the top: it presses up from under the page,
+     rather than framing it like a photographic vignette. */
+  background: radial-gradient(ellipse 104% 88% at 50% 30%,
+              transparent 30%, rgba(3, 6, 11, .62) 68%, #03060B 100%);
+  /* The slow release. Overridden on the way IN by each state below. */
+  transition: opacity 3.4s ease, background 2.4s ease;
+}
+
+/* feared — heaviest, perfectly still, and it arrives in a tenth of a second.
+   That number is the author's own: "It fires in a tenth of a second." The
+   asymmetry is the whole character — instant to seize, slow to let go. */
+.beast.is-feared {
+  --w: calc(.60 + var(--depth, 1) * .40);
+  opacity: var(--w);
+  transition-duration: .1s;
+}
+
+/* discussed — no longer everywhere: it presses from one side only. Something
+   you can turn to face, which is what negotiating it means. */
+.beast.is-discussed {
+  --w: calc(.34 + var(--depth, 1) * .26);
+  opacity: var(--w);
+  background: linear-gradient(100deg, #03060B 0%, rgba(3, 6, 11, .45) 26%, transparent 58%);
+  transition-duration: 1.2s;
+  animation: weight 9s ease-in-out infinite;
+}
+
+/* distracted — the weight does not lessen, it MOVES. Same force, aimed
+   somewhere you are not looking: overhead, clear of both columns. "The same
+   underlying need for connection, a healthier target." No breathing — nothing
+   is being negotiated here, only redirected. */
+.beast.is-distracted {
+  --w: calc(.52 + var(--depth, 1) * .38);
+  opacity: var(--w);
+  background: linear-gradient(180deg, #03060B 0%, rgba(3, 6, 11, .48) 22%, transparent 54%);
+  transition-duration: .35s;
+}
+
+/* trained — still present, still breathing, but the weight has turned warm
+   and now rises from below instead of closing in. Its own breath, far longer
+   and far shallower than the others: this one fills the bottom of the screen,
+   and at the amplitude the other states use it reads as a flicker rather than
+   as breathing. */
+.beast.is-trained {
+  --w: calc(.55 + var(--depth, 1) * .30);
+  opacity: var(--w);
+  background: radial-gradient(ellipse 120% 70% at 50% 108%,
+              rgba(232, 168, 124, .42) 0%, transparent 62%);
+  transition-duration: 2s;
+  animation: warmth 20s ease-in-out infinite;
+}
+
+@keyframes warmth {
+  0%, 100% { opacity: var(--w); }
+  50%      { opacity: calc(var(--w) * 1.05); }
+}
+
+@keyframes weight {
+  0%, 100% { opacity: var(--w); }
+  50%      { opacity: calc(var(--w) * 1.28); }
+}
+
+/* The wet-street sheen: warm window light reflected off the page, with the
+   source out of frame. It rises with the needle and only Toward of centre, so
+   the cold chapters inside zone C — the wardrobe, the bench — stay grey while
+   the ones on either side of them do not. Under everything; the Beast is
+   above it, and the apparatus above that. */
+.sheen {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0;
+  background: radial-gradient(ellipse 78% 62% at 76% 16%,
+              rgba(232, 168, 124, .17) 0%, transparent 64%);
+  transition: opacity 1.8s ease;
+}
+body[data-palette="transitional"] .sheen { opacity: var(--warm, 0); }
+
+/* ── AS IF: drawn first, real after ──────────────────────────────────────
+   A will-be chapter arrives on drafting paper, in cyanotype, thin. Once it has
+   actually been read it solidifies — and stays solid, on the way back up too.
+   The only one-way mechanic in the site, which is the whole point of it: a
+   goal written as an accomplished fact does not go back to being a wish. */
+
+.chapter--blueprint .drawing-holder { position: relative; }
+.chapter--blueprint .drawing-holder::after {
+  content: "";
+  position: absolute;
+  inset: -.7rem;
+  pointer-events: none;
+  border: 1px solid rgba(191, 215, 237, .22);
+  background-image:
+    repeating-linear-gradient(0deg,  rgba(191, 215, 237, .13) 0 1px, transparent 1px 20px),
+    repeating-linear-gradient(90deg, rgba(191, 215, 237, .13) 0 1px, transparent 1px 20px);
+  transition: opacity 1.8s ease;
+}
+.chapter--blueprint .drawing path {
+  stroke-width: 1.1;
+  opacity: .72;
+  transition: stroke-dashoffset 1.1s cubic-bezier(.33,.9,.4,1),
+              stroke-width 1.8s ease, opacity 1.8s ease, stroke 1.8s ease;
+}
+.chapter--blueprint .title,
+.chapter--blueprint .scene { opacity: .82; transition: opacity 1.8s ease; }
+
+.chapter--blueprint.is-real .drawing-holder::after { opacity: 0; }
+.chapter--blueprint.is-real .drawing path { stroke: var(--text); stroke-width: 1.6; opacity: 1; }
+.chapter--blueprint.is-real .title,
+.chapter--blueprint.is-real .scene { opacity: 1; }
+
+/* the map's undrawn edge: the one drawing whose stroke never finishes */
+.drawing path.unfinished { stroke-dasharray: 1; stroke-dashoffset: 1; }
+.is-drawn .drawing path.unfinished { stroke-dashoffset: .58; }
+
+/* ── the Key ─────────────────────────────────────────────────────────────
+   Found at chapter 24, in the corner of the margin she used to occupy.
+   Nothing says what it is for; twenty chapters back, a door has no key. */
+.key { width: 58px; opacity: 0; transition: opacity 2.2s ease; }
+.key.is-found { opacity: .9; }
+.key svg { display: block; width: 100%; height: auto; }
+.key .ln { fill: none; stroke: var(--line); stroke-width: 1.3; stroke-linecap: round; }
+.key .bit { fill: var(--ground); stroke: var(--line); stroke-width: 1.1; }
+
+/* ── the Split chapter: two drawings, one page ───────────────────────── */
+
+.drawing-pair { position: relative; }
+.drawing-pair .drawing-holder { margin: 0; max-width: none; }
+.drawing-pair .is-inner { position: absolute; inset: 0; opacity: var(--inner, 0); }
+.drawing-pair .is-outer { opacity: calc(1 - var(--inner, 0)); }
+
+/* The one light page in the site needs its ink the other way round: a card
+   made of white on a pale ground is not a card. */
+body[data-palette="warm"] .col--concept {
+  background: rgba(22, 40, 58, .055);
+  border-color: rgba(22, 40, 58, .17);
+}
+body[data-palette="warm"] .concepts { border-top-color: rgba(22, 40, 58, .15); }
+/* and the Beast, warm on a warm ground, only needs to be felt */
+body[data-palette="warm"] .beast.is-trained { --w: calc(.30 + var(--depth, 1) * .18); }
+
+/* ── the-corner: the one page the apparatus refuses to measure ───────── */
+
+body[data-refused] { background: #12181F; }
+body[data-refused] .apparatus__id,
+body[data-refused] .apparatus__stack { opacity: 0; transition: opacity 1s ease; }
+
+/* ── a chapter: one page, two columns ───────────────────────────────── */
+
+.chapter {
+  /* Every chapter is a station: a generous fixed hold so the stop is felt at
+     all, plus a share proportional to |compass| so deep-Away chapters hold
+     roughly twice as long as the shallow ones. Nothing says so. */
+  min-height: calc(100svh + 50svh + var(--resist, 0) * 17svh);
+  position: relative;
+}
+
+.chapter__inner {
+  /* The station dissolves at the end of its hold, so arriving at the next one
+     reads as a change of place rather than one page sliding over another. */
+  opacity: calc(1 - var(--leave, 0));
+  position: sticky;
+  top: 0;
+  min-height: 100svh;
+  display: grid;
+  /* The narrative column is capped at 44ch by its own prose, so it never
+     needs its whole track — the slack goes to the analysis, which is set
+     smaller and needs the width more. */
+  grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr);
+  gap: clamp(2rem, 4vw, 4.5rem);
+  align-items: center;
+  padding: 2.8rem 3rem 2.8rem 12.5rem;
+  max-width: 100rem;
+}
+
+.col { min-width: 0; }
+
+/* left — the narrative */
+
+.drawing-holder { margin-bottom: 1.8rem; max-width: 26rem; }
+/* The column must fit one screen: it is a station, and a station you have to
+   scroll inside is not a stop. The drawing is what yields — but by exactly
+   what its own chapter's text has not used, measured by fit() in chapter.js,
+   not by one cap sized for the densest page in the site. `30svh` is only the
+   value before the first measurement. */
+.drawing { max-height: var(--art, 30svh); }
+.drawing { width: 100%; height: auto; overflow: visible; }
+.drawing path {
+  fill: none;
+  stroke: var(--line);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  transition: stroke-dashoffset 1.1s cubic-bezier(.33,.9,.4,1);
+}
+.is-drawn .drawing path { stroke-dashoffset: 0; }
+
+/* Solid shapes arrive once the lines have finished drawing themselves.
+   `coat` is her white, `patch` is her black — which is the page ground
+   showing through. Two tones, no explanation. */
+.drawing .coat,
+.drawing .patch {
+  stroke: none;
+  opacity: 0;
+  stroke-dasharray: none;
+  transition: opacity .8s ease 1.05s;
+}
+.drawing .coat  { fill: var(--text); }
+.drawing .patch { fill: var(--ground); transition-delay: 1.25s; }
+
+.is-drawn .drawing .coat,
+.is-drawn .drawing .patch { opacity: 1; }
+
+.drawing .glow { opacity: 0; transition: opacity 2s ease .6s; }
+.is-drawn .drawing .glow { opacity: 1; }
+.drawing .seed-in  { stop-color: var(--seed); stop-opacity: .30; }
+.drawing .seed-out { stop-color: var(--seed); stop-opacity: 0; }
+
+/* voice 1 — the essay, verbatim, first person. The only "I" on the site. */
+.quote {
+  font-style: italic;
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+  line-height: 1.55;
+  max-width: 34ch;
+  color: var(--line);
+  margin: 0 0 1.7rem;
+  text-indent: -.4em;
+}
+
+.title {
+  font-size: clamp(1.9rem, 4.4vw, 3.1rem);
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 0 0 .7rem;
+  letter-spacing: -.01em;
+}
+
+.place {
+  font-family: var(--sans);
+  font-size: .82rem;
+  letter-spacing: .04em;
+  color: var(--dim);
+  margin: 0 0 .3rem;
+}
+
+.coords {
+  font-family: var(--mono);
+  font-size: .68rem;
+  letter-spacing: .06em;
+  color: var(--dim);
+  margin: 0 0 1.6rem;
+}
+
+/* voice 2 — the story, third person */
+.scene {
+  font-size: clamp(1.05rem, 1.7vw, 1.28rem);
+  line-height: 1.62;
+  max-width: 44ch;
+  margin: 0;
+}
+
+/* right — voice 3, the course. Different family, smaller, set apart. It shares
+   the page now, but not the moment: it resolves only once the chapter has
+   actually been scrolled into. */
+/* A card laid on the page, not part of it. Translucent rather than a fixed
+   colour, so the same rule sits correctly on every palette — including
+   the-corner's near-black ground. Square corners: nothing here is rounded. */
+.col--concept {
+  align-self: center;
+  justify-self: stretch;
+  max-width: 44rem;
+  padding: 2.4rem 2.6rem;
+  background: rgba(255, 255, 255, .05);
+  border: 1px solid rgba(255, 255, 255, .11);
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.is-second .col--concept { opacity: 1; transform: none; }
+
+.concept-link {
+  font-family: var(--sans);
+  font-size: clamp(.95rem, 1.35vw, 1.08rem);
+  line-height: 1.72;
+  color: var(--line);
+  margin: 0 0 1.5rem;
+}
+
+.concepts {
+  list-style: none;
+  margin: 0;
+  padding: 1.4rem 0 0;
+  border-top: 1px solid rgba(255, 255, 255, .09);
+  font-family: var(--sans);
+  font-size: .7rem;
+  letter-spacing: .06em;
+  color: var(--dim);
+}
+/* the dash hangs, so a concept that wraps stays a single block of text */
+.concepts li { margin-bottom: .3rem; padding-left: 1.1em; text-indent: -1.1em; }
+.concepts li::before { content: "— "; }
+
+/* the enter transition of the narrative column */
+.col--narrative > * { opacity: 0; transform: translateY(10px); transition: opacity .9s ease, transform .9s ease; }
+.is-shown .col--narrative > * { opacity: 1; transform: none; }
+.is-shown .col--narrative > *:nth-child(2) { transition-delay: .1s; }
+.is-shown .col--narrative > *:nth-child(3) { transition-delay: .16s; }
+.is-shown .col--narrative > *:nth-child(4) { transition-delay: .2s; }
+.is-shown .col--narrative > *:nth-child(5) { transition-delay: .26s; }
+.is-shown .col--narrative > *:nth-child(6) { transition-delay: .32s; }
+
+/* ── the finale ──────────────────────────────────────────────────────────
+   A short blank page after the last chapter: the site has to be over before
+   it can offer the way back. The Key sits in the middle of it, and it is the
+   only thing in the whole site that is asking to be clicked. */
+.afterward {
+  /* A full screen, so that when the reader reaches the bottom the last chapter
+     is genuinely gone and the Key is alone on the page. */
+  height: 100svh;
+  display: grid;
+  place-items: center;
+}
+
+.use-key {
+  width: 132px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(10px);
+  pointer-events: none;
+  transition: opacity 1.4s ease, transform 1.4s ease;
+}
+.use-key.is-offered { opacity: 1; transform: none; pointer-events: auto; }
+.use-key svg { display: block; width: 100%; height: auto; overflow: visible; }
+.use-key .ln { fill: none; stroke: var(--line); stroke-width: 1.2; stroke-linecap: round; }
+.use-key .bit { fill: var(--ground); stroke: var(--line); stroke-width: 1; }
+/* the ring is the affordance: it breathes, so the Key reads as live rather
+   than as one more thing drawn on a page */
+.use-key .ring {
+  fill: none;
+  stroke: var(--paths);
+  stroke-width: .8;
+  transition: stroke .5s ease;
+  animation: offer 3.4s ease-in-out infinite;
+}
+.use-key:hover .ring,
+.use-key:focus-visible .ring { stroke: var(--text); animation: none; }
+
+@keyframes offer {
+  0%, 100% { stroke: var(--paths); }
+  50%      { stroke: var(--line); }
+}
+
+/* The door. The Key was found at chapter 24 and this is twenty chapters back;
+   nothing announces the connection, and no text arrives with the opening. */
+.chapter.is-open .drawing-pair .is-outer { opacity: 0; transition: opacity 2.8s ease .5s; }
+.chapter.is-open .drawing-pair .is-inner { opacity: 1; transition: opacity 2.8s ease .5s; }
+
+/* The rail: free re-reading, on the instrument the reader has been watching
+   for twenty-five chapters. It does not exist until the door is open. */
+.rail { position: absolute; inset: 0 auto 0 -13px; width: 28px; }
+.rail__stop {
+  position: absolute;
+  left: 0;
+  width: 28px;
+  height: 14px;
+  margin-top: -7px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.rail__stop::after {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 6px;
+  width: 9px;
+  height: 1px;
+  background: var(--line);
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+.rail__stop:hover::after,
+.rail__stop:focus-visible::after { opacity: .9; }
+
+/* ── the map interludes ─────────────────────────────────────────────────
+   A station with no text at all. Drawn, not rendered: the same line, the
+   same ink, one scale that never changes so the three flights are strictly
+   comparable — 300 km, then half the planet, then back. */
+
+.interlude {
+  min-height: calc(100svh + var(--hold, 1) * 100svh);
+  position: relative;
+}
+
+.interlude__inner {
+  opacity: calc(1 - var(--leave, 0));
+  position: sticky;
+  top: 0;
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  padding: 4rem 3rem 4rem 12.5rem;
+}
+
+.globe {
+  width: min(56vh, 32rem);
+  height: auto;
+  display: block;
+  overflow: visible;
+  opacity: 0;
+  transition: opacity 1.8s ease;
+}
+.is-shown .globe { opacity: 1; }
+
+/* Barely a disc — enough that the ocean is a surface and not the page. */
+.globe__limb  { fill: rgba(255, 255, 255, .025); stroke: var(--paths); stroke-width: .7; }
+.globe__grid  { fill: none; stroke: var(--paths); stroke-width: .4; opacity: .5; }
+.globe__coast { fill: none; stroke: var(--line); stroke-width: .9;
+                stroke-linejoin: round; stroke-linecap: round; }
+/* the flight itself: the brightest line on the page, and the only one that
+   grows while you scroll */
+.globe__arc   { fill: none; stroke: var(--text); stroke-width: 1.6; stroke-linecap: round; }
+/* where you left is solid; where you are going is still hollow */
+.globe__mark        { fill: var(--text); }
+.globe__mark.is-to  { fill: var(--ground); stroke: var(--text); stroke-width: 1.1; }
+
+/* ── short viewports ─────────────────────────────────────────────────────
+   Every size above is set in `vw`, so on a wide, short screen the type is as
+   large as on a tall one and the densest chapters run off the bottom. A
+   station you have to scroll inside is not a stop, so height gets a say too:
+   the drawing yields first, then the type. Measured, not guessed — see the
+   one-screen assertion in tools/walkthrough.mjs. */
+
+@media (max-height: 940px) {
+  .chapter__inner { padding: 2rem 3rem 2rem 12.5rem; }
+  .quote { font-size: clamp(.98rem, 1.5vw, 1.16rem); line-height: 1.5; margin-bottom: 1.3rem; }
+  .title { font-size: clamp(1.7rem, 3.4vw, 2.4rem); }
+  .scene { font-size: clamp(1rem, 1.45vw, 1.12rem); line-height: 1.55; }
+  .coords { margin-bottom: 1.2rem; }
+  .drawing-holder { margin-bottom: 1.2rem; }
+}
+
+@media (max-height: 780px) {
+  .chapter__inner { padding: 1.4rem 3rem 1.4rem 12.5rem; }
+  .quote { font-size: .95rem; line-height: 1.42; margin-bottom: 1rem; }
+  .title { font-size: clamp(1.45rem, 3vw, 2rem); margin-bottom: .5rem; }
+  .scene { font-size: .98rem; line-height: 1.5; }
+  .place { margin-bottom: .2rem; }
+  .coords { margin-bottom: .9rem; }
+  .drawing-holder { margin-bottom: .9rem; }
+  .col--concept { padding: 1.6rem 1.8rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition-duration: .01ms !important; }
+  .drawing path { stroke-dashoffset: 0; }
+  .col--narrative > *, .col--concept { opacity: 1; transform: none; }
+}
+
+/* one column below the fold width: the course voice returns to arriving after */
+@media (max-width: 900px) {
+  .chapter__inner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2.5rem;
+    padding: 3rem 1.6rem 3rem 6rem;
+  }
+  .col--concept { padding: 1.6rem 1.7rem; max-width: none; }
+  .interlude__inner { padding: 3rem 1.6rem 3rem 6rem; }
+  .globe { width: min(46vh, 20rem); }
+  .apparatus { width: 4.6rem; }
+  .compass { width: 52px; height: 52px; }
+  .venus { width: 40px; }
+  .threads { height: 24vh; }
+}
+
+/* ── the ending ──────────────────────────────────────────────────────────
+   Placed last on purpose: these rules have to win against the enter
+   transitions of the narrative column, and they do it by coming after them
+   rather than by shouting.
+
+   The door has opened. Everything that measured withdraws — the same
+   withdrawal `the-corner` used to refuse to be measured, meaning the opposite
+   thing this time — and the page goes through the doorway into a room the
+   site spent twenty-one chapters not drawing, and does not draw now. */
+
+body[data-ending] .apparatus__id,
+body[data-ending] .apparatus__stack {
+  opacity: 0;
+  transition: opacity 2.2s ease;
+}
+
+/* The last frame of the site does not move at all. */
+body[data-ending] .beast { animation: none; }
+
+/* And nothing is left in the margin either. She was there for chapter 4 and
+   the Key was found for this door, but neither belongs in the room: what is
+   left is the ground, the warmth, and — in a moment — the dial. */
+body[data-ending] .venus,
+body[data-ending] .key {
+  opacity: 0;
+  transition: opacity 2.2s ease;
+}
+
+.chapter.is-entering .col--narrative > *:not(.drawing-holder),
+.chapter.is-entering .col--concept {
+  opacity: 0;
+  transition: opacity 1.8s ease;
+}
+
+/* Two movements, not one: the door comes to the middle of the screen first,
+   then the camera goes through it. `translate` and `scale` are set as separate
+   properties precisely so they can have separate timings — folded into one
+   `transform` they would have to share, and the door would still be drifting
+   sideways when it was already eleven times too big to see. */
+.chapter.is-entering .chapter__inner {
+  translate: var(--go-x, 0) var(--go-y, 0);
+  scale: var(--through, 16);
+  transition: translate 1.8s cubic-bezier(.33, 0, .2, 1),
+              scale 5s cubic-bezier(.42, 0, .58, 1) 1.4s;
+}
+
+/* Reduced motion: the withdrawal still happens, the journey through the door
+   does not. */
+@media (prefers-reduced-motion: reduce) {
+  .chapter.is-entering .chapter__inner { translate: none; scale: none; }
+}
+
+/* ── the title page ──────────────────────────────────────────────────────
+   One screen before chapter 1, carrying the essay's own three headings and
+   nothing else. It exists so the reader knows what they have landed in — the
+   site explains nothing after this, so it is the one place that may. */
+
+.intro {
+  height: 100svh;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 3.2rem;
+}
+
+.intro__title {
+  margin: 0;
+  display: grid;
+  gap: .35em;
+  justify-items: center;
+  font-weight: 400;
+  font-size: clamp(1.6rem, 3.6vw, 2.9rem);
+  line-height: 1.05;
+  letter-spacing: -.01em;
+  text-align: center;
+}
+/* The three eras arrive in order, because they are an order. */
+.intro__title span { opacity: 0; animation: arrive 2s ease forwards; }
+.intro__title span:nth-child(1) { animation-delay: .5s; }
+.intro__title span:nth-child(2) { animation-delay: 1.6s; }
+.intro__title span:nth-child(3) { animation-delay: 2.7s; }
+
+@keyframes arrive {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* the only instruction in the site, and it is not written down */
+.intro__cue {
+  position: relative;
+  width: 1px;
+  height: 62px;
+  background: linear-gradient(var(--paths), transparent);
+  opacity: 0;
+  animation: arrive 2s ease 4s forwards;
+}
+.intro__cue i {
+  position: absolute;
+  left: -1.5px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--line);
+  animation: fall 2.8s ease-in-out 4s infinite;
+}
+
+@keyframes fall {
+  0%       { top: 0; opacity: 0; }
+  22%      { opacity: 1; }
+  78%      { opacity: 1; }
+  100%     { top: 58px; opacity: 0; }
+}
+
+body[data-intro] .apparatus { opacity: 0; transition: opacity 1.2s ease; }
+
+@media (prefers-reduced-motion: reduce) {
+  .intro__title span, .intro__cue { opacity: 1; animation: none; }
+  .intro__cue i { animation: none; top: 28px; }
+}
+
+/* ── the last frame ──────────────────────────────────────────────────────
+   The dial, alone in the room, at the size the whole site has been implying.
+   Same geometry as the margin instrument, same stylesheet — the rules above
+   for .compass do all the drawing; this only places it and lights it. */
+
+.last-frame {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 3;
+  width: min(52vh, 26rem);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 2.6s ease;
+}
+.last-frame.is-lit { opacity: 1; }
+.last-frame .compass { width: 100%; height: auto; }
+/* the one movement it makes, and the only thing left moving on the page */
+.last-frame .needle { transition: transform 5s cubic-bezier(.45, 0, .3, 1); }
+.last-frame .names text { fill: var(--line); }
+
+@media (prefers-reduced-motion: reduce) {
+  .last-frame .needle { transition: none; }
+}
+
+/* The one instrument in the site that is ever titled, on the one page where
+   it has stopped measuring anything. */
+.last-frame__name {
+  /* The dial's viewBox carries a third of its height as empty sky above the
+     arc, so the label is pulled back into it rather than floating clear. */
+  margin: 0 0 -2.6rem;
+  font-family: var(--sans);
+  font-size: .74rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--dim);
+  text-align: center;
+}
+
+/* And then there is nothing. Everything goes, the dial included, and the site
+   starts over from the title. */
+body.is-over #chapters,
+body.is-over .last-frame,
+body.is-over .apparatus {
+  opacity: 0;
+  transition: opacity 2.4s ease;
+}
+
+/* Sealed: from the click on the Key to the restart, the page belongs to the
+   ending. Nothing the mouse or a finger does reaches it — the wheel and
+   touchmove handlers in finale.js refuse the events, and this stops the
+   browser from doing anything of its own with them either. Escape ends it. */
+body.is-sealed {
+  touch-action: none;
+  overscroll-behavior: none;
+  user-select: none;
+}
+body.is-sealed #chapters { pointer-events: none; }
+
+/* Sealed: from the click on the Key to the restart, the page belongs to the
+   ending. Nothing the mouse or a finger does reaches it — the wheel and
+   touchmove handlers in finale.js refuse the events, and these stop the
+   browser doing anything of its own with them either. Escape ends it. */
+body.is-sealed {
+  touch-action: none;
+  overscroll-behavior: none;
+  user-select: none;
+}
+body.is-sealed #chapters { pointer-events: none; }
+
+/* ── a passage ───────────────────────────────────────────────────────────
+   A station that is not a chapter: one drawing, one line, centred, and none
+   of the apparatus's business. It exists because sixteen years old and beaten,
+   then the other side of the world, is not a transition but a cut. */
+
+.passage {
+  min-height: calc(100svh + var(--hold, 1) * 100svh);
+  position: relative;
+}
+
+.passage__inner {
+  opacity: calc(1 - var(--leave, 0));
+  position: sticky;
+  top: 0;
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 2.4rem;
+  padding: 3rem 3rem 3rem 12.5rem;
+}
+
+/* The holder needs a definite width. In a centred grid an inline SVG set to
+   `width: 100%` has nothing to resolve against and collapses to a fraction of
+   its size — which is what happened here first. */
+.passage .drawing-holder { margin: 0; width: min(34rem, 62vw); max-width: none; }
+.passage .drawing { max-height: 38svh; }
+
+/* The one line. Same voice as a scene — third person, no analysis — but
+   centred and set back, because nothing here is being examined. */
+.passage__line {
+  margin: 0;
+  max-width: 40ch;
+  text-align: center;
+  font-size: clamp(1rem, 1.5vw, 1.18rem);
+  line-height: 1.7;
+  color: var(--line);
+}
+
+@media (max-height: 940px) {
+  .passage__inner { padding: 2rem 3rem 2rem 12.5rem; gap: 1.8rem; }
+  .passage .drawing-holder { width: min(30rem, 58vw); }
+  .passage .drawing { max-height: 32svh; }
+}
+@media (max-width: 900px) {
+  .passage__inner { padding: 3rem 1.6rem 3rem 6rem; }
+}
+
+/* Every chapter is built by JavaScript from the compiled JSON, so without it
+   the page is genuinely empty. Say so rather than showing a blank screen. */
+.noscript {
+  margin: 0;
+  padding: 6rem 2rem;
+  max-width: 34ch;
+  margin-inline: auto;
+  text-align: center;
+  color: var(--dim);
+  line-height: 1.7;
+}

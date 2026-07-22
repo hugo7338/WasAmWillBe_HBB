@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" class="drawing" role="img"
+     aria-label="The same wardrobe, open: a rail, and everything hanging on it.">
+
+  <!-- The Non-Visible. Same carcass, same plinth — only the doors have moved,
+       so the cross-fade reads as opening rather than as a second object. -->
+  <path pathLength="1" d="M 118 44 L 362 44 L 362 296 L 118 296 Z"/>
+
+  <path pathLength="1" d="M 118 44 L 46 66 L 46 274 L 118 296"/>
+  <path pathLength="1" d="M 362 44 L 434 66 L 434 274 L 362 296"/>
+  <path pathLength="1" d="M 60 158 L 60 186"/>
+  <path pathLength="1" d="M 420 158 L 420 186"/>
+
+  <path pathLength="1" d="M 134 86 L 346 86"/>
+  <path pathLength="1" d="M 166 86 C 160 96 162 102 170 104"/>
+  <path pathLength="1" d="M 170 104 L 152 152 L 190 152 Z"/>
+  <path pathLength="1" d="M 214 86 C 208 96 210 102 218 104"/>
+  <path pathLength="1" d="M 218 104 L 198 160 L 240 160 Z"/>
+  <path pathLength="1" d="M 262 86 C 256 96 258 102 266 104"/>
+  <path pathLength="1" d="M 266 104 L 248 148 L 286 148 Z"/>
+  <path pathLength="1" d="M 310 86 C 304 96 306 102 314 104"/>
+  <path pathLength="1" d="M 314 104 L 294 162 L 336 162 Z"/>
+
+  <path pathLength="1" d="M 142 230 L 236 230 L 236 288 L 142 288 Z"/>
+  <path pathLength="1" d="M 142 248 L 236 248"/>
+  <path pathLength="1" d="M 254 214 L 340 214 L 340 288 L 254 288 Z"/>
+  <path pathLength="1" d="M 254 244 L 340 244"/>
+  <path pathLength="1" d="M 254 266 L 340 266"/>
+
+  <path pathLength="1" d="M 118 296 L 106 316"/>
+  <path pathLength="1" d="M 362 296 L 374 316"/>
+  <path pathLength="1" d="M 100 316 L 380 316"/>
+</svg>

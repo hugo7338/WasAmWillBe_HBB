@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="The same door, open. Beyond it, nothing is drawn.">
+
+  <!-- The same frame, to the pixel: only the leaf has moved. The room behind
+       it is not drawn — twenty-one chapters of not naming what is in there do
+       not get undone by a floor plan. The opening is the whole gesture. -->
+  <path pathLength="1" d="M 60 268 L 420 268"/>
+  <path pathLength="1" d="M 148 268 L 148 52 L 332 52 L 332 268"/>
+
+  <path pathLength="1" d="M 160 62 L 320 62"/>
+
+  <path pathLength="1" d="M 160 268 L 160 62 L 76 96 L 76 262 Z"/>
+  <path pathLength="1" d="M 92 118 L 148 96 L 148 158 L 92 176 Z"/>
+  <path pathLength="1" d="M 92 200 L 148 184 L 148 240 L 92 254 Z"/>
+  <path pathLength="1" d="M 138 172 m -5 0 a 5 5 0 1 0 10 0 a 5 5 0 1 0 -10 0"/>
+</svg>

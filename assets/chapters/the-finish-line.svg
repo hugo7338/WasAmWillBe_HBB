@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="Mountains rising behind blue water. The place is drawn; it is not named.">
+
+  <!-- "mountains rising behind blue water" — the beauty is fixed, the address
+       is not, so no shore, no town, and no finish gantry. -->
+  <path pathLength="1" d="M 20 176 L 96 96 L 138 134 L 208 60 L 268 122 L 330 84 L 396 140 L 462 108"/>
+  <path pathLength="1" d="M 208 60 L 186 86 L 214 92 L 232 78 Z"/>
+  <path pathLength="1" d="M 96 96 L 82 112 L 104 116 L 114 104 Z"/>
+
+  <path pathLength="1" d="M 20 202 L 462 202"/>
+  <path pathLength="1" d="M 48 226 L 200 226"/>
+  <path pathLength="1" d="M 240 226 L 436 226"/>
+  <path pathLength="1" d="M 32 250 L 152 250"/>
+  <path pathLength="1" d="M 196 250 L 380 250"/>
+  <path pathLength="1" d="M 92 274 L 268 274"/>
+  <path pathLength="1" d="M 310 274 L 430 274"/>
+</svg>

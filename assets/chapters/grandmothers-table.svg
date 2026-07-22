@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="A plate of spinach and cabbage seen from above, untouched, between a fork and a knife.">
+
+  <!-- Seen from above: the child's own view of the afternoon. The plate is
+       untouched — nothing here has been eaten. -->
+  <path pathLength="1" d="M 240 156 m -112 0 a 112 112 0 1 0 224 0 a 112 112 0 1 0 -224 0"/>
+  <path pathLength="1" d="M 240 156 m -88 0 a 88 88 0 1 0 176 0 a 88 88 0 1 0 -176 0"/>
+
+  <g transform="rotate(-28 214 134)">
+    <path pathLength="1" d="M 214 108 C 226 120 228 138 214 156 C 200 138 202 120 214 108 Z"/>
+    <path pathLength="1" d="M 214 112 L 214 152"/>
+  </g>
+  <g transform="rotate(20 262 128)">
+    <path pathLength="1" d="M 262 102 C 274 114 276 132 262 150 C 248 132 250 114 262 102 Z"/>
+    <path pathLength="1" d="M 262 106 L 262 146"/>
+  </g>
+  <g transform="rotate(-6 234 182)">
+    <path pathLength="1" d="M 234 156 C 246 168 248 186 234 204 C 220 186 222 168 234 156 Z"/>
+    <path pathLength="1" d="M 234 160 L 234 200"/>
+  </g>
+  <g transform="rotate(46 278 176)">
+    <path pathLength="1" d="M 278 150 C 290 162 292 180 278 198 C 264 180 266 162 278 150 Z"/>
+    <path pathLength="1" d="M 278 154 L 278 194"/>
+  </g>
+  <g transform="rotate(-58 198 180)">
+    <path pathLength="1" d="M 198 154 C 210 166 212 184 198 202 C 184 184 186 166 198 154 Z"/>
+    <path pathLength="1" d="M 198 158 L 198 198"/>
+  </g>
+
+  <!-- the fork -->
+  <path pathLength="1" d="M 74 78 L 74 118"/>
+  <path pathLength="1" d="M 84 78 L 84 118"/>
+  <path pathLength="1" d="M 94 78 L 94 118"/>
+  <path pathLength="1" d="M 74 118 C 74 128 94 128 94 118"/>
+  <path pathLength="1" d="M 84 126 L 84 236"/>
+
+  <!-- the knife -->
+  <path pathLength="1" d="M 392 78 C 402 88 404 108 402 132 L 388 132 L 388 84 Z"/>
+  <path pathLength="1" d="M 395 132 L 395 236"/>
+</svg>

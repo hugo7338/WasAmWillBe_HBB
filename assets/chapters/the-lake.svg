@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="A small boat on open water, with the far shore behind it.">
+
+  <path pathLength="1" d="M 24 150 L 132 116 L 196 148 L 268 104 L 344 146 L 412 122 L 456 150"/>
+
+  <path pathLength="1" d="M 150 214 L 330 214 L 306 246 L 174 246 Z"/>
+  <path pathLength="1" d="M 174 214 L 174 190 L 300 190 L 300 214"/>
+  <path pathLength="1" d="M 196 190 L 196 172 L 262 172 L 262 190"/>
+
+  <path pathLength="1" d="M 40 264 L 168 264"/>
+  <path pathLength="1" d="M 312 264 L 440 264"/>
+  <path pathLength="1" d="M 72 282 L 232 282"/>
+  <path pathLength="1" d="M 268 282 L 408 282"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="A slatted bench, empty.">
+
+  <!-- Empty, and it stays empty: the one location the Beast still occupies at
+       the end of the site, which the page says as a weight and the drawing
+       does not say at all. -->
+  <path pathLength="1" d="M 96 148 L 384 148"/>
+  <path pathLength="1" d="M 96 168 L 384 168"/>
+  <path pathLength="1" d="M 96 188 L 384 188"/>
+
+  <path pathLength="1" d="M 120 132 L 120 212"/>
+  <path pathLength="1" d="M 360 132 L 360 212"/>
+
+  <path pathLength="1" d="M 84 212 L 396 212"/>
+  <path pathLength="1" d="M 84 212 L 84 226 L 396 226 L 396 212"/>
+
+  <path pathLength="1" d="M 120 226 L 120 268"/>
+  <path pathLength="1" d="M 360 226 L 360 268"/>
+  <path pathLength="1" d="M 104 268 L 136 268"/>
+  <path pathLength="1" d="M 344 268 L 376 268"/>
+</svg>

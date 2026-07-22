@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 392" class="drawing" role="img"
+     aria-label="Both islands of New Zealand, drawn as a coastline.">
+
+  <!-- The one drawing in the site that is measured rather than drawn: Natural
+       Earth's 110 m coastline, projected. Both islands, because the six months
+       covered both. The crossing itself is not drawn: the scene says where it
+       went, and a line across the map would only say it again. -->
+  <path pathLength="1" d="M 255.5 70.7 L 271.2 100.7 L 271.7 81.2 L 281.5 89 L 284.7 110.6
+                          L 302.2 119.9 L 316.8 122.2 L 329.2 111.3 L 340.2 114.6 L 335 140
+                          L 328.4 156.6 L 311.8 156 L 306 164.7 L 308 177 L 304.9 182.3
+                          L 296.7 197.7 L 285.9 217.2 L 269.1 228.6 L 265.4 221.1 L 256.4 217
+                          L 268.9 193.5 L 261.8 177.8 L 238.4 166.4 L 239 156.1 L 254.7 146.1
+                          L 258.4 124.1 L 257.4 105.7 L 248.6 86.5 L 249.2 81.5 L 238.8 69.7
+                          L 221.7 44.5 L 212.7 24.2 L 220.7 22 L 232.5 37.9 L 249.4 45.3 Z"/>
+
+  <path pathLength="1" d="M 221 206.7 L 225.9 218.4 L 241.4 206.9 L 247.6 218.9 L 247.6 230.9
+                          L 239.6 244.2 L 225.4 265.2 L 214.3 276.7 L 222.3 290.4 L 205.6 290.8
+                          L 187 301.5 L 181.2 320.2 L 168.9 349.1 L 151.8 361.9 L 141 370
+                          L 121 369.4 L 107 360 L 83.4 358 L 79.8 347.5 L 91.4 326.3
+                          L 118.7 298.1 L 132.7 292.8 L 148.3 281.9 L 166.9 267 L 179.9 252.1
+                          L 189.5 230.9 L 197.8 223.6 L 201 207.7 L 216.2 194.5 Z"/>
+
+</svg>

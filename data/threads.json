@@ -1,0 +1,31 @@
+[
+  {
+    "id": "inherited-line",
+    "label": "inherited",
+    "members": [
+      "venus-garden",
+      "the-dashboard"
+    ]
+  },
+  {
+    "id": "far-island-line",
+    "label": "far island",
+    "members": [
+      "the-van",
+      "the-long-solo-hikes",
+      "the-closed-bond",
+      "the-return"
+    ]
+  },
+  {
+    "id": "play-learn-line",
+    "label": "play / learn",
+    "members": [
+      "the-aquarium",
+      "the-control-panel",
+      "the-bw-phone",
+      "the-idea-log",
+      "above-mont-blanc"
+    ]
+  }
+]

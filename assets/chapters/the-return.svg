@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="Four identical houses in a row, on an ordinary street.">
+  <path pathLength="1" d="M 20 268 L 466 268"/>
+
+  <!-- the same house, four times. The repetition is the argument. -->
+  <path pathLength="1" d="M 40 268 L 40 216 L 126 216 L 126 268"/>
+  <path pathLength="1" d="M 32 216 L 83 182 L 134 216"/>
+  <path pathLength="1" d="M 74 268 L 74 240 L 92 240 L 92 268"/>
+  <path pathLength="1" d="M 52 226 L 66 226 L 66 240 L 52 240 Z"/>
+  <path pathLength="1" d="M 100 226 L 114 226 L 114 240 L 100 240 Z"/>
+
+  <path pathLength="1" d="M 146 268 L 146 216 L 232 216 L 232 268"/>
+  <path pathLength="1" d="M 138 216 L 189 182 L 240 216"/>
+  <path pathLength="1" d="M 180 268 L 180 240 L 198 240 L 198 268"/>
+  <path pathLength="1" d="M 158 226 L 172 226 L 172 240 L 158 240 Z"/>
+  <path pathLength="1" d="M 206 226 L 220 226 L 220 240 L 206 240 Z"/>
+
+  <path pathLength="1" d="M 252 268 L 252 216 L 338 216 L 338 268"/>
+  <path pathLength="1" d="M 244 216 L 295 182 L 346 216"/>
+  <path pathLength="1" d="M 286 268 L 286 240 L 304 240 L 304 268"/>
+  <path pathLength="1" d="M 264 226 L 278 226 L 278 240 L 264 240 Z"/>
+  <path pathLength="1" d="M 312 226 L 326 226 L 326 240 L 312 240 Z"/>
+
+  <path pathLength="1" d="M 358 268 L 358 216 L 444 216 L 444 268"/>
+  <path pathLength="1" d="M 350 216 L 401 182 L 452 216"/>
+  <path pathLength="1" d="M 392 268 L 392 240 L 410 240 L 410 268"/>
+  <path pathLength="1" d="M 370 226 L 384 226 L 384 240 L 370 240 Z"/>
+  <path pathLength="1" d="M 418 226 L 432 226 L 432 240 L 418 240 Z"/>
+</svg>

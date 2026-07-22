@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="An open notebook, both pages filled with short entries, and room left over.">
+
+  <path pathLength="1" d="M 40 68 L 236 84 L 236 262 L 40 246 Z"/>
+  <path pathLength="1" d="M 440 68 L 244 84 L 244 262 L 440 246 Z"/>
+  <path pathLength="1" d="M 236 84 L 244 84"/>
+  <path pathLength="1" d="M 236 262 L 244 262"/>
+
+  <path pathLength="1" d="M 60 110 L 216 122"/>
+  <path pathLength="1" d="M 60 134 L 180 144"/>
+  <path pathLength="1" d="M 60 158 L 216 170"/>
+  <path pathLength="1" d="M 60 182 L 148 190"/>
+  <path pathLength="1" d="M 60 206 L 196 218"/>
+
+  <path pathLength="1" d="M 264 122 L 420 110"/>
+  <path pathLength="1" d="M 264 146 L 372 136"/>
+  <path pathLength="1" d="M 264 170 L 420 158"/>
+  <path pathLength="1" d="M 264 194 L 340 188"/>
+</svg>

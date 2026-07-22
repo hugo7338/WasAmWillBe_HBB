@@ -1,0 +1,35 @@
+{
+  "sequence": [
+    "first-house",
+    "the-quiet-street",
+    "venus-garden",
+    "the-locked-room",
+    "displayed-diplomas",
+    "grandmothers-table",
+    "the-aquarium",
+    "the-corner",
+    "the-van",
+    "the-long-solo-hikes",
+    "the-closed-bond",
+    "the-return",
+    "the-control-panel",
+    "the-dashboard",
+    "the-grey-wardrobe",
+    "the-bw-phone",
+    "crossroads-of-impulses",
+    "the-pushback-bench",
+    "the-lake",
+    "the-improv-stage",
+    "the-finish-line",
+    "the-signed-keys",
+    "the-idea-log",
+    "the-future-team",
+    "above-mont-blanc"
+  ],
+  "key_found_at": "the-future-team",
+  "key_opens": "the-locked-room",
+  "interludes": [
+    "M1",
+    "M2"
+  ]
+}

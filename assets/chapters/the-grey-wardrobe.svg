@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" class="drawing" role="img"
+     aria-label="A wardrobe, closed.">
+
+  <!-- The Visible: a flat front, and nothing to look at. Its twin,
+       the-grey-wardrobe--inner.svg, is the same object opened; the two are
+       stacked and cross-faded by the scroll. Same viewBox, or the wall does
+       not line up with what is behind it. -->
+  <path pathLength="1" d="M 118 44 L 362 44 L 362 296 L 118 296 Z"/>
+  <path pathLength="1" d="M 240 44 L 240 296"/>
+
+  <path pathLength="1" d="M 228 158 L 228 186"/>
+  <path pathLength="1" d="M 252 158 L 252 186"/>
+
+  <path pathLength="1" d="M 118 296 L 106 316"/>
+  <path pathLength="1" d="M 362 296 L 374 316"/>
+  <path pathLength="1" d="M 100 316 L 380 316"/>
+</svg>

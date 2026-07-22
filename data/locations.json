@@ -1,0 +1,699 @@
+[
+  {
+    "id": "first-house",
+    "title": "The First House",
+    "zone": "A",
+    "era": "was",
+    "order": 1,
+    "place": "Villeurbanne — years 0 to 4",
+    "coordinates": {
+      "lat": 45.7719,
+      "lng": 4.8902
+    },
+    "symbolic": false,
+    "abstract": false,
+    "compass": -4,
+    "compass_inner": null,
+    "concepts": [
+      "Behavioral Chain: Initial Point",
+      "The Tribe (transmission by repetition)"
+    ],
+    "palette": "cold",
+    "beast_state": "absent",
+    "companion": "venus",
+    "threads": [],
+    "media_3d": false,
+    "quote": "My baptism and first communion were not my decisions; they were my mother\nreplicating the schema she herself had received.",
+    "scene": "The very first ground: four years in Villeurbanne before the move. This\nlocation also hosts The Font — a baptism, not chosen. A mother\nreplicating the schema she herself received.",
+    "concept_link": "The Initial Point of the Behavioral Chain; the first lesson in how tribes\ntransmit themselves — not through argument, but through repetition."
+  },
+  {
+    "id": "the-quiet-street",
+    "title": "The Quiet Street",
+    "zone": "A",
+    "era": "was",
+    "order": 2,
+    "place": "Villefontaine — a residential estate",
+    "coordinates": {
+      "lat": 45.6136,
+      "lng": 5.1483
+    },
+    "symbolic": false,
+    "abstract": false,
+    "compass": -4,
+    "compass_inner": null,
+    "concepts": [
+      "The Tribe (unspoken rules, fear of judgment/exclusion)"
+    ],
+    "palette": "cold",
+    "beast_state": "absent",
+    "companion": "venus",
+    "threads": [],
+    "media_3d": false,
+    "quote": "The most powerful tribes are not the ones that threaten exclusion openly, but\nthe ones whose rules are so deeply woven into daily life that they never need\nto be spoken.",
+    "scene": "An ordinary residential neighborhood where nothing dramatic ever happens —\nand that is precisely the point. The most powerful tribes are the ones whose\nrules are woven so deep into daily life they never need to be spoken.",
+    "concept_link": "The Tribe: benevolence installs programs just as firmly as cruelty does."
+  },
+  {
+    "id": "venus-garden",
+    "title": "Venus's Garden",
+    "zone": "A",
+    "era": "was",
+    "order": 3,
+    "place": "Villefontaine — the family garden",
+    "coordinates": {
+      "lat": 45.614,
+      "lng": 5.149
+    },
+    "symbolic": false,
+    "abstract": false,
+    "compass": -1,
+    "compass_inner": null,
+    "concepts": [
+      "The Tribe (non-human members)",
+      "Value installation by immersion"
+    ],
+    "palette": "cold",
+    "beast_state": "absent",
+    "companion": "venus",
+    "threads": [
+      "inherited-line"
+    ],
+    "media_3d": false,
+    "quote": "Growing up surrounded by animals installed a value so deep I never noticed\nit being installed: animal life counts.",
+    "scene": "A black-and-white female Border Collie, born the same year as the author;\nthey grow up in parallel. Vega the cat joins at seven, then three more cats.\nVenus dies at fourteen — and in a house without vocabulary for feelings,\nthat grief is one of the few memories where the author can still feel the\nweight of what he felt.",
+    "concept_link": "The Tribe's non-human members; the value \"animal life counts\" installed so\ndeep it was never noticed being installed. Start of the inherited-line\nthread (→ The Dashboard: conscious extension into veganism)."
+  },
+  {
+    "id": "the-locked-room",
+    "title": "The Locked Room",
+    "zone": "A",
+    "era": "was",
+    "order": 4,
+    "place": "Villefontaine — inside the family house",
+    "coordinates": {
+      "lat": 45.6136,
+      "lng": 5.1483
+    },
+    "symbolic": false,
+    "abstract": false,
+    "compass": -5,
+    "compass_inner": null,
+    "concepts": [
+      "Behavioral Chain (full): Initial Point → Values → Programs → Behaviours → Displays",
+      "The Beast vs the Cartographer (which cannot map what the Tribe forbade it to visit)"
+    ],
+    "palette": "cold",
+    "beast_state": "feared",
+    "companion": "venus",
+    "threads": [],
+    "media_3d": false,
+    "quote": "Mine taught me to value education, to distrust dogma, to work hard, to extend\ncompassion beyond my own species — and to keep my emotions locked in a room I\nwas never given the key to.",
+    "scene": "The family living room: affection exists but is never displayed. No hugs, no\n\"I love you,\" no vocabulary for feelings. Somewhere in the house, a room the\nauthor was never given the key to.",
+    "concept_link": "The full Behavioral Chain: undemonstrative household (Initial Point) →\n\"emotions are private\" (Value) → \"do not express, do not name\" (Program) →\nno words, no tears (Behaviours) → friendships that dissolve (Displays). And\nthe lock holds from the other side too: the Cartographer cannot map territory\nthe Tribe taught it never to visit."
+  },
+  {
+    "id": "displayed-diplomas",
+    "title": "The Displayed Diplomas",
+    "zone": "A",
+    "era": "was",
+    "order": 5,
+    "place": "Villefontaine — family-gathering space",
+    "coordinates": {
+      "lat": 45.613,
+      "lng": 5.1475
+    },
+    "symbolic": false,
+    "abstract": false,
+    "compass": -2,
+    "compass_inner": null,
+    "concepts": [
+      "The Tribe → Values (installation by display)"
+    ],
+    "palette": "cold",
+    "beast_state": "absent",
+    "companion": "venus",
+    "threads": [],
+    "media_3d": false,
+    "quote": "My tribe never told me \"you must succeed academically\"; it simply displayed\nsuccess in a way my young brain recorded as the standard.",
+    "scene": "Family gatherings where uncles and aunts from prestigious engineering schools\nsimply exist. No one says \"you must succeed academically\"; success is\ndisplayed, and a young brain records it as the standard. The father, a\nprinter by inherited vocation, shows little interest in grades.",
+    "concept_link": "Values installed by display, not command — the Tribe → Values link of the\nBehavioral Chain."
+  },
+  {
+    "id": "grandmothers-table",
+    "title": "Grandmother's Table",
+    "zone": "B",
+    "era": "was",
+    "order": 6,
+    "place": "La Giettaz, Savoie",
+    "coordinates": {
+      "lat": 45.8697,
+      "lng": 6.4989
+    },
+    "symbolic": false,
+    "abstract": false,
+    "compass": -3,
+    "compass_inner": null,
+    "concepts": [
+      "The Beast (cannot be reasoned with, only negotiated with)",
+      "Program installed by force"
+    ],
+    "palette": "cold",
+    "beast_state": "feared",
+    "companion": "venus",
+    "threads": [],
+    "media_3d": false,
+    "quote": "Some programs were installed by force rather than silence.",
+    "scene": "Entire afternoons seated before plates of spinach and cabbage. Her trigger\nwas care; the Beast recorded only coercion. Decades later, the limbic system\nstill vetoes those vegetables before the Cartographer can open the discussion.",
+    "concept_link": "A small but perfect illustration that the Beast cannot be reasoned with,\nonly negotiated with."
+  },
+  {
+    "id": "the-aquarium",
+    "title": "The Aquarium",
+    "zone": "A",
+    "era": "was",
+    "order": 7,
+    "place": "Villefontaine — the living room",
+    "coordinates": {
+      "lat": 45.6136,
+      "lng": 5.1483
+    },
+    "symbolic": false,
+    "abstract": false,
+    "compass": 1,
+    "compass_inner": null,
+    "concepts": [
+      "6 Motivations: Play/Learn (first display)",
+      "The Coachman's method (in embryo)"
+    ],
+    "palette": "cold",
+    "beast_state": "absent",
+    "companion": "venus",
+    "threads": [
+      "play-learn-line"
+    ],
+    "media_3d": false,
+    "quote": "The aquarium was my first laboratory.",
+    "scene": "Early adolescence: a large aquarium in the living room, earned through trust.\nTo deserve that trust, the author devours books on fishkeeping — teaching\nhimself an entire ecosystem's rules before touching it. The first laboratory.",
+    "concept_link": "The first clear display of Play/Learn, the motivation that will dominate the\nhierarchy — and the Coachman's method in embryo: rather than fighting a\nsystem, study its rules and adjust its parameters. Start of the\nplay-learn-line thread (→ Control Panel → B&W Phone → Mont Blanc cockpit)."
+  },
+  {
+    "id": "the-corner",
+    "title": "The Corner",
+    "zone": "A",
+    "era": "was",
+    "order": 8,
+    "place": "An unnamed countryside village",
+    "coordinates": null,
+    "symbolic": true,
+    "abstract": true,
+    "compass": -5,
+    "compass_inner": null,
+    "concepts": [
+      "Impact Point / belief modification",
+      "Values Compass: Away",
+      "The Beast (freeze response)"
+    ],
+    "palette": "cold",
+    "beast_state": "feared",
+    "companion": "none",
+    "threads": [],
+    "media_3d": false,
+    "quote": null,
+    "scene": "Age sixteen, a countryside village. After a moment of intimacy with a friend\nwhose relationship was falling apart, her boyfriend — older, trained in\ncombat sports — corners the author and beats him while he cannot defend\nhimself. The bruises faded; the cracked belief did not: \"my safe, benevolent\nworld will always protect me.\"",
+    "concept_link": "The early Impact Point. The Beast learns that danger is real and the body\ndefenseless — feeding the freeze response and orienting the Values Compass\n\"Away\": away from confrontation, exposure, judgment."
+  },
+  {
+    "id": "the-van",
+    "title": "The Van",
+    "zone": "E",
+    "era": "was",
+    "order": 9,
+    "place": "New Zealand",
+    "coordinates": null,
+    "symbolic": true,
+    "abstract": false,
+    "compass": 0,
+    "compass_inner": null,
+    "concepts": [
+      "The Tribe (limits of its authority)",
+      "Values Compass"
+    ],
+    "palette": "cold",
+    "beast_state": "absent",
+    "companion": "none",
+    "threads": [
+      "far-island-line"
+    ],
+    "media_3d": false,
+    "quote": "But it was on the road itself that the program revealed itself most clearly.",
+    "scene": "Between the end of the bachelor's degree and the start of engineering school:\nsix months alone in a van across New Zealand. Against all expectation, the\ntribe never judged the choice — because it clashed with no value it had\ntransmitted. Neither the calling nor the academic trajectory was being\nquestioned, only postponed.",
+    "concept_link": "A boundary of the Tribe's authority: permission is granted freely where no\ntransmitted value is threatened. The Tribe polices its programs, not your\ndistance from it."
+  },
+  {
+    "id": "the-long-solo-hikes",
+    "title": "The Long Solo Hikes",
+    "zone": "E",
+    "era": "was",
+    "order": 10,
+    "place": "New Zealand — the trails",
+    "coordinates": null,
+    "symbolic": true,
+    "abstract": false,
+    "compass": 1,
+    "compass_inner": null,
+    "concepts": [
+      "6 Motivations (Play/Learn + Survival at full strength, Tribe at zero)"
+    ],
+    "palette": "cold",
+    "beast_state": "absent",
+    "companion": "none",
+    "threads": [
+      "far-island-line"
+    ],
+    "media_3d": false,
+    "quote": null,
+    "scene": "What marked him was not, first and foremost, the encounters — intense as they\nwere — but the long solo hikes: entire days with nothing but the terrain, the\nweather, and his own body to tame.",
+    "concept_link": "The motivational hierarchy seen in isolation: Play/Learn and Survival running\nat full strength with Tribe at zero, and complete contentment. The clearest\nnatural experiment in the whole essay."
+  },
+  {
+    "id": "the-closed-bond",
+    "title": "The Closed Bond",
+    "zone": "E",
+    "era": "was",
+    "order": 11,
+    "place": "South Island — crossed almost end to end",
+    "coordinates": null,
+    "symbolic": true,
+    "abstract": false,
+    "compass": -3,
+    "compass_inner": null,
+    "concepts": [
+      "Behavioral Chain (reverting to its original pattern)",
+      "Programs redeployed onto new terrain"
+    ],
+    "palette": "cold",
+    "beast_state": "absent",
+    "companion": "none",
+    "threads": [
+      "far-island-line"
+    ],
+    "media_3d": false,
+    "quote": null,
+    "scene": "He crossed nearly the whole of the South Island alongside a friend met on the\nroad — a bond as immediate and strong as only travel encounters produce. They\nhave seen each other once since, in France. He knows today that this\nrelationship is closed.",
+    "concept_link": "The Behavioral Chain reverting to its original pattern: the program installed\nby an undemonstrative household — connection exists or it dissolves, it is\nnot maintained — held just as true on the other side of the world. It simply\nredeployed itself onto new terrain."
+  },
+  {
+    "id": "the-return",
+    "title": "The Return",
+    "zone": "E",
+    "era": "was",
+    "order": 12,
+    "place": "Back in France",
+    "coordinates": null,
+    "symbolic": true,
+    "abstract": false,
+    "compass": -2,
+    "compass_inner": null,
+    "concepts": [
+      "The Tribe (activates only for old bonds)",
+      "Displays of the Behavioral Chain"
+    ],
+    "palette": "cold",
+    "beast_state": "absent",
+    "companion": "none",
+    "threads": [
+      "far-island-line"
+    ],
+    "media_3d": false,
+    "quote": null,
+    "scene": "He saw the few friends he had left as if nothing had happened — without\nawkwardness, without any need to explain himself, because they already knew\nhim.",
+    "concept_link": "The clearest proof of the program: the relationship to the Tribe activates\nonly for old bonds, never for those that would need to be built from scratch."
+  },
+  {
+    "id": "the-control-panel",
+    "title": "The Control Panel",
+    "zone": "C",
+    "era": "am",
+    "order": 13,
+    "place": "Lyon — the current apartment",
+    "coordinates": {
+      "lat": 45.764,
+      "lng": 4.8357
+    },
+    "symbolic": false,
+    "abstract": false,
+    "compass": 1,
+    "compass_inner": null,
+    "concepts": [
+      "6 Motivations: Play/Learn ranked first"
+    ],
+    "palette": "transitional",
+    "beast_state": "absent",
+    "companion": "none",
+    "threads": [
+      "play-learn-line"
+    ],
+    "media_3d": false,
+    "quote": "If \"Who I Was\" describes the programs my tribe installed, \"Who I Am\"\ndescribes the moment I began reading my own code.",
+    "scene": "Every setting of the washing machine, configured before launch. Buttons\npressed for the pleasure of pressing them; boredom the moment anything\nbecomes familiar. The adolescent of the aquarium has simply changed scale.",
+    "concept_link": "Play/Learn first among the 6 Motivations: the brain rewards novelty and\nmastery of systems far more than status or money."
+  },
+  {
+    "id": "the-dashboard",
+    "title": "The Dashboard",
+    "zone": "C",
+    "era": "am",
+    "order": 14,
+    "place": "Lyon — the current apartment",
+    "coordinates": {
+      "lat": 45.764,
+      "lng": 4.8357
+    },
+    "symbolic": false,
+    "abstract": false,
+    "compass": 0,
+    "compass_inner": null,
+    "concepts": [
+      "6 Motivations: Survival (modern form)",
+      "Behavioral Chain: conscious extension of an inherited value"
+    ],
+    "palette": "transitional",
+    "beast_state": "absent",
+    "companion": "none",
+    "threads": [
+      "inherited-line"
+    ],
+    "media_3d": false,
+    "quote": null,
+    "scene": "Sleep data, cardiac data, ingredient lists — knowing exactly what enters the\nbody. Veganism sits here at the intersection of two chains: the ethical\nextension of the tribe's love of animals, and survival-by-optimization. One\ndiscipline, two justifications.",
+    "concept_link": "Survival, second motivation, in its modern form — the deliberate mirror of\nGrandmother's Table: where her generation survived by force-feeding, this one\nsurvives by optimization, coercion replaced with informed consent. End point\nof the inherited-line thread: the value \"animal life counts,\" inherited\nfrom a meat-eating tribe and consciously extended further than they took it."
+  },
+  {
+    "id": "the-grey-wardrobe",
+    "title": "The Grey Wardrobe / Behind the Wall",
+    "zone": "C",
+    "era": "am",
+    "order": 15,
+    "place": "Lyon — the current apartment",
+    "coordinates": {
+      "lat": 45.764,
+      "lng": 4.8357
+    },
+    "symbolic": false,
+    "abstract": false,
+    "compass": -2,
+    "compass_inner": 2,
+    "concepts": [
+      "Profiling Matrix: Visible vs Non-Visible",
+      "The Beast (shame trigger)"
+    ],
+    "palette": "transitional",
+    "beast_state": "feared",
+    "companion": "none",
+    "threads": [],
+    "media_3d": true,
+    "quote": "My current work is to close it from the inside out — starting, as the course\nsuggests, by convincing my own mind of confidence first, in order to bring the\nBeast along rather than fight it.",
+    "scene": "Outside: deliberately unremarkable clothes, a body language that reads cold\nor nonchalant, a wish at times to be invisible, to disturb no one. Inside:\na mind hungry for novelty, an ethics strong enough to restructure a diet,\na person open and unrestrained once trust exists.",
+    "concept_link": "The Profiling Matrix — the gap between Visible and Non-Visible is the\nshame-triggered Beast building a wall, and strangers mistake the wall for\nthe person. Exactly what a profiler would read."
+  },
+  {
+    "id": "the-bw-phone",
+    "title": "The Black-and-White Phone",
+    "zone": "C",
+    "era": "am",
+    "order": 16,
+    "place": "Lyon — the current apartment",
+    "coordinates": {
+      "lat": 45.764,
+      "lng": 4.8357
+    },
+    "symbolic": false,
+    "abstract": false,
+    "compass": 3,
+    "compass_inner": null,
+    "concepts": [
+      "Habit Loop: Trigger unchangeable → Action modifiable → Reward unchangeable",
+      "The Coachman (redesigning the route)"
+    ],
+    "palette": "transitional",
+    "beast_state": "discussed",
+    "companion": "none",
+    "threads": [
+      "play-learn-line"
+    ],
+    "media_3d": false,
+    "quote": "I no longer try to defeat the Beast in a direct fight, because I have\nunderstood that this fight cannot be won in 0.1 seconds.",
+    "scene": "Boredom, the unchangeable trigger; dopamine, the unchangeable reward.\nDeleting the networks failed — too many people live on Instagram. So the\nenvironment is engineered instead: an automation drains the iPhone of color\nthe instant Instagram opens, stripping the reward of its visual food.",
+    "concept_link": "The Habit Loop with the Action re-engineered — the Coachman redesigning the\nroute rather than whipping the horses. In miniature, the aquarium method:\nstudy a system's rules and adjust its parameters."
+  },
+  {
+    "id": "crossroads-of-impulses",
+    "title": "The Crossroads of Impulses",
+    "zone": "C",
+    "era": "am",
+    "order": 17,
+    "place": "Lyon — streets of the everyday",
+    "coordinates": {
+      "lat": 45.762,
+      "lng": 4.834
+    },
+    "symbolic": false,
+    "abstract": false,
+    "compass": 2,
+    "compass_inner": null,
+    "concepts": [
+      "Beast strategy: distract",
+      "6 Motivations: the unnamed need for connection"
+    ],
+    "palette": "transitional",
+    "beast_state": "distracted",
+    "companion": "none",
+    "threads": [],
+    "media_3d": false,
+    "quote": "I did not choose to devalue the tribe; my tribe, through its silence, taught\nme to.",
+    "scene": "The urge to contact an ex, redirected toward calling a friend: the same\nunderlying need for connection, a healthier target.",
+    "concept_link": "Distracting the Beast — one of the three strategies (let it happen /\ndiscuss / distract). Also evidence that Tribe, ranked last in the\nmotivational hierarchy, still runs underneath: the need for connection\nexists, merely running under an old program that refuses to name it."
+  },
+  {
+    "id": "the-pushback-bench",
+    "title": "The Pushback Bench",
+    "zone": "C",
+    "era": "am",
+    "order": 18,
+    "place": "Lyon — anywhere advice is given",
+    "coordinates": {
+      "lat": 45.765,
+      "lng": 4.837
+    },
+    "symbolic": false,
+    "abstract": false,
+    "compass": -1,
+    "compass_inner": null,
+    "concepts": [
+      "Habit Loop (unresolved)",
+      "Stoicism: letting go of control",
+      "The Cartographer (naming as reclamation)"
+    ],
+    "palette": "transitional",
+    "beast_state": "discussed",
+    "companion": "none",
+    "threads": [],
+    "media_3d": false,
+    "quote": "Who I am, then, is a person in mid-negotiation with his own programming:\nstill wired for invisibility and control, but now armed with a map of the\nmachine — and beginning, deliberately, to rewire it.",
+    "scene": "Someone advises or asks; the reflex is to push back and contradict — an\nunconscious loop likely tied to a need for control. The strategy borrows\nfrom Stoicism: letting go of what cannot be controlled. It is difficult,\nand the loop still wins regularly.",
+    "concept_link": "An unresolved Habit Loop; naming it is the Cartographer's first act of\nreclaiming territory from the Beast."
+  },
+  {
+    "id": "the-lake",
+    "title": "The Lake — September 2026",
+    "zone": "D",
+    "era": "will-be",
+    "order": 19,
+    "place": "Lake Annecy",
+    "coordinates": {
+      "lat": 45.86,
+      "lng": 6.14
+    },
+    "symbolic": false,
+    "abstract": false,
+    "compass": 3,
+    "compass_inner": null,
+    "concepts": [
+      "AS IF mindset",
+      "6 Motivations: Play/Learn"
+    ],
+    "palette": "blueprint",
+    "beast_state": "absent",
+    "companion": "none",
+    "threads": [],
+    "media_3d": true,
+    "quote": "Play/Learn drives all of them — a triathlon, a boat, a plane: new systems to\nmaster, new buttons to press, on an ever-larger scale.",
+    "scene": "September 2026, AS IF: the boat license is held. Autonomous navigation,\ndays on the water with friends.",
+    "concept_link": "The AS IF mindset — goals written as accomplished facts, the Cartographer\ndrawing the map before the territory exists, so the Beast learns to treat\nit as home. Play/Learn made concrete: a new system to master."
+  },
+  {
+    "id": "the-improv-stage",
+    "title": "The Improv Stage — January 2027",
+    "zone": "C",
+    "era": "will-be",
+    "order": 20,
+    "place": "Lyon — an improvisation theatre",
+    "coordinates": {
+      "lat": 45.76,
+      "lng": 4.84
+    },
+    "symbolic": false,
+    "abstract": false,
+    "compass": 4,
+    "compass_inner": null,
+    "concepts": [
+      "Beast strategy: discuss / training the Beast",
+      "AS IF mindset",
+      "Values Compass: Toward"
+    ],
+    "palette": "blueprint",
+    "beast_state": "trained",
+    "companion": "none",
+    "threads": [],
+    "media_3d": true,
+    "quote": "The final section of this essay is written, deliberately, in the \"AS IF\"\nmindset — not as a wish list, but as a description of an identity already in\nmotion.",
+    "scene": "January 2027, AS IF: enrolled in improvisation classes — the most direct\nassault on the old programming. The unscripted reply, the eyes of strangers:\nthe exact terrain where the Beast has always failed, chosen because of the\nshame trigger, not despite it.",
+    "concept_link": "Not fighting the Beast — training it, discussion by discussion, until\nunexpected situations stop registering as threats. Narrative climax of\nZone C."
+  },
+  {
+    "id": "the-finish-line",
+    "title": "The Finish Line — September 2028",
+    "zone": "D",
+    "era": "will-be",
+    "order": 21,
+    "place": "An Olympic-distance triathlon",
+    "coordinates": null,
+    "symbolic": true,
+    "abstract": false,
+    "compass": 4,
+    "compass_inner": null,
+    "concepts": [
+      "AS IF mindset",
+      "Habit Loops in service of goals",
+      "6 Motivations: Play/Learn + Survival"
+    ],
+    "palette": "blueprint",
+    "beast_state": "trained",
+    "companion": "none",
+    "threads": [],
+    "media_3d": false,
+    "quote": null,
+    "scene": "September 2028, AS IF: a confirmed triathlete crosses an Olympic-distance\nfinish line — mountains rising behind blue water — after four years of\nstep-by-step progress in each discipline, and the Beast, once fed this\nreward, already wants the Ironman.",
+    "concept_link": "Habit architecture in service of goals; Play/Learn and Survival driving\nendurance. The Beast's reward system turned ally."
+  },
+  {
+    "id": "the-signed-keys",
+    "title": "The Signed Keys — September 2028",
+    "zone": "D",
+    "era": "will-be",
+    "order": 22,
+    "place": "The future home",
+    "coordinates": null,
+    "symbolic": true,
+    "abstract": false,
+    "compass": 3,
+    "compass_inner": null,
+    "concepts": [
+      "AS IF mindset",
+      "6 Motivations: Survival (security); Recognition and Reward notably absent"
+    ],
+    "palette": "blueprint",
+    "beast_state": "absent",
+    "companion": "none",
+    "threads": [],
+    "media_3d": true,
+    "quote": "Survival drives the discipline of endurance sport and the security of\nproperty ownership.",
+    "scene": "September 2028, AS IF: the engineering degree completed, a permanent\ncontract signed, and the largest loan the bank will grant — a home.",
+    "concept_link": "The motivational hierarchy made concrete. Notably absent: goals of pure\nRecognition or Reward — no audience chased, no fortune. The goals are more\nhonest for it."
+  },
+  {
+    "id": "the-idea-log",
+    "title": "The Idea Log",
+    "zone": "D",
+    "era": "will-be",
+    "order": 23,
+    "place": "Carried everywhere",
+    "coordinates": null,
+    "symbolic": true,
+    "abstract": false,
+    "compass": 2,
+    "compass_inner": null,
+    "concepts": [
+      "6 Motivations: Play/Learn",
+      "Entrepreneurship as a system learned patiently"
+    ],
+    "palette": "blueprint",
+    "beast_state": "absent",
+    "companion": "none",
+    "threads": [
+      "play-learn-line"
+    ],
+    "media_3d": false,
+    "quote": null,
+    "scene": "A long-term brainstorming log, noting every idea however insignificant —\nentrepreneurship treated as a system to be learned patiently rather than a\nlightning strike to be waited for.",
+    "concept_link": "Play/Learn applied to the professional future; the aquarium method at the\nscale of a career."
+  },
+  {
+    "id": "the-future-team",
+    "title": "The Future Team",
+    "zone": "D",
+    "era": "will-be",
+    "order": 24,
+    "place": "The map's undrawn edge",
+    "coordinates": null,
+    "symbolic": true,
+    "abstract": false,
+    "compass": 3,
+    "compass_inner": null,
+    "concepts": [
+      "Leadership: 5 pillars of influence",
+      "Influence vs manipulation",
+      "Impact Points & belief modification (awaited)"
+    ],
+    "palette": "blueprint",
+    "beast_state": "absent",
+    "companion": "none",
+    "threads": [],
+    "media_3d": false,
+    "quote": "Emotions — the pillar my tribe never taught me — will remain my hardest\napprenticeship: one cannot move people through emotions one struggles to name\nin oneself.",
+    "scene": "Leadership as influence — mutual benefit — never manipulation. Two pillars\nalready stand: Reciprocity (giving consistently, expecting the same) and\nCredibility (technical choices justified daily, influence earned through\ndemonstrated competence). Authority will come with status and experience.\nTwo remain under construction: Emotions — the pillar the tribe never\ntaught — and connecting to others' Motivations and Values, which requires\nloosening control. The belief \"you are never better served than by\nyourself\" sits here, named as a program, awaiting its impact point.\nPerhaps the future team will provide it.",
+    "concept_link": "The 5 pillars of influence; a belief in tension with leadership itself —\nthe art of being served through others by serving them first."
+  },
+  {
+    "id": "above-mont-blanc",
+    "title": "Above Mont Blanc — 2029",
+    "zone": "D",
+    "era": "will-be",
+    "order": 25,
+    "place": "Mont Blanc, from the cockpit",
+    "coordinates": {
+      "lat": 45.8326,
+      "lng": 6.8652
+    },
+    "symbolic": false,
+    "abstract": false,
+    "compass": 5,
+    "compass_inner": null,
+    "concepts": [
+      "Values Compass: fully Toward",
+      "AS IF mindset (apex)",
+      "6 Motivations: Play/Learn"
+    ],
+    "palette": "warm",
+    "beast_state": "trained",
+    "companion": "none",
+    "threads": [
+      "play-learn-line"
+    ],
+    "media_3d": true,
+    "quote": "Who I will be, then, is not a different person — it is the same machine,\ndeliberately reprogrammed: a Beast trained rather than feared, a Coachman who\nredesigns routes instead of whipping horses, and a compass finally pointing\nToward.",
+    "scene": "Early 2029: registered for the private pilot license — soon flying\nautonomously, leaving for weekends, passing over Mont Blanc.",
+    "concept_link": "The literal inversion of invisibility: rising into full view, gaze assumed.\nThe Values Compass fully reoriented Toward; the end of the play-learn-line\nthread — cockpit buttons at the scale of the sky."
+  }
+]

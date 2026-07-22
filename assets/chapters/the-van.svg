@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="A high-roof camper van seen from the side, parked on open ground.">
+  <path pathLength="1" d="M 20 268 L 466 268"/>
+
+  <!-- the body, with the wheel arches cut out of the floor line -->
+  <path pathLength="1" d="M 100 238 L 138 238 A 26 26 0 0 1 190 238 L 320 238
+                          A 26 26 0 0 1 372 238 L 392 238 L 392 178 L 368 172
+                          L 330 126 L 116 126 Q 100 126 100 142 Z"/>
+
+  <path pathLength="1" d="M 164 242 m -26 0 a 26 26 0 1 0 52 0 a 26 26 0 1 0 -52 0"/>
+  <path pathLength="1" d="M 164 242 m -9 0 a 9 9 0 1 0 18 0 a 9 9 0 1 0 -18 0"/>
+  <path pathLength="1" d="M 346 242 m -26 0 a 26 26 0 1 0 52 0 a 26 26 0 1 0 -52 0"/>
+  <path pathLength="1" d="M 346 242 m -9 0 a 9 9 0 1 0 18 0 a 9 9 0 1 0 -18 0"/>
+
+  <!-- the two windows he lived behind, and the cab he drove from -->
+  <path pathLength="1" d="M 132 148 L 194 148 L 194 192 L 132 192 Z"/>
+  <path pathLength="1" d="M 214 148 L 258 148 L 258 192 L 214 192 Z"/>
+  <path pathLength="1" d="M 298 146 L 336 146 L 352 172 L 298 172 Z"/>
+
+  <!-- the side door -->
+  <path pathLength="1" d="M 278 238 L 278 132"/>
+  <path pathLength="1" d="M 268 186 L 268 198"/>
+
+  <!-- the roof vent -->
+  <path pathLength="1" d="M 186 126 L 186 114 L 224 114 L 224 126"/>
+</svg>

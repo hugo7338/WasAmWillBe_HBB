@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="Two ridge lines under driven weather. There is no path across them.">
+
+  <!-- driven weather, above everything -->
+  <path pathLength="1" d="M 96 34 L 78 96"/>
+  <path pathLength="1" d="M 142 28 L 124 90"/>
+  <path pathLength="1" d="M 188 38 L 170 100"/>
+  <path pathLength="1" d="M 234 26 L 216 88"/>
+  <path pathLength="1" d="M 280 40 L 262 102"/>
+  <path pathLength="1" d="M 326 30 L 308 92"/>
+  <path pathLength="1" d="M 372 36 L 354 98"/>
+
+  <!-- the far ridge -->
+  <path pathLength="1" d="M 20 196 L 92 150 L 148 182 L 206 120 L 268 170
+                          L 334 140 L 402 178 L 466 152"/>
+
+  <!-- and the near one. Nothing is drawn across either of them: the terrain,
+       the weather, and his own body — no route, and no one else on it. -->
+  <path pathLength="1" d="M 20 254 L 80 216 L 126 240 L 184 188 L 240 230
+                          L 300 202 L 358 242 L 420 210 L 466 234"/>
+</svg>

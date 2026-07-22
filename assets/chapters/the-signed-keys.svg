@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" class="drawing" role="img"
+     aria-label="A key ring holding two keys. No address, no door.">
+
+  <!-- The keys, and nothing they open: no city is drawn, because none is
+       named. What is signed is the belonging, not the address. -->
+  <path pathLength="1" d="M 240 96 m -34 0 a 34 34 0 1 0 68 0 a 34 34 0 1 0 -68 0"/>
+
+  <path pathLength="1" d="M 214 122 C 200 148 194 172 196 208"/>
+  <path pathLength="1" d="M 196 208 m -18 0 a 18 18 0 1 0 36 0 a 18 18 0 1 0 -36 0"/>
+  <path pathLength="1" d="M 196 208 m -6 0 a 6 6 0 1 0 12 0 a 6 6 0 1 0 -12 0"/>
+  <path pathLength="1" d="M 196 226 L 196 282"/>
+  <path pathLength="1" d="M 196 262 L 180 262"/>
+  <path pathLength="1" d="M 196 276 L 182 276"/>
+
+  <path pathLength="1" d="M 266 122 C 280 148 286 172 284 208"/>
+  <path pathLength="1" d="M 284 208 m -18 0 a 18 18 0 1 0 36 0 a 18 18 0 1 0 -36 0"/>
+  <path pathLength="1" d="M 284 208 m -6 0 a 6 6 0 1 0 12 0 a 6 6 0 1 0 -12 0"/>
+  <path pathLength="1" d="M 284 226 L 284 282"/>
+  <path pathLength="1" d="M 284 262 L 300 262"/>
+  <path pathLength="1" d="M 284 276 L 298 276"/>
+</svg>
